@@ -1,0 +1,738 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet"><link href="https://app-companion-430619.appspot.com/static/cdn/fonts/v1/material-symbols-outlined.css" data-stitch-cdn-href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://app-companion-430619.appspot.com/static/cdn/fonts/v1/material-symbols-outlined.css" data-stitch-cdn-href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://app-companion-430619.appspot.com/static/cdn/v1/tailwindcss-play.js" data-stitch-cdn-src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"inverse-on-surface":"#eff1f3","surface-container-lowest":"#ffffff","surface":"#f7f9fb","on-background":"#191c1e","surface-dim":"#d8dadc","on-tertiary":"#ffffff","surface-container-highest":"#e0e3e5","on-tertiary-fixed-variant":"#00504a","brand-accent-red":"#DC2626","on-secondary-fixed":"#001b3e","on-primary-container":"#77849c","surface-variant":"#e0e3e5","tertiary-fixed-dim":"#80d5cb","tertiary-container":"#00201d","primary":"#000000","outline":"#75777d","error-container":"#ffdad6","primary-container":"#0e1c2f","on-secondary":"#ffffff","surface-container":"#eceef0","on-tertiary-container":"#389189","surface-container-low":"#f2f4f6","solar-cyan":"#0284C7","inverse-primary":"#bac7e1","on-primary-fixed":"#0e1c2f","on-surface-variant":"#44474c","background":"#f7f9fb","tertiary-fixed":"#9cf2e8","surface-warm":"#FAF9F6","border-subtle":"#E2E8F0","on-error":"#ffffff","navy-secondary":"#1E3E62","inverse-surface":"#2d3133","on-error-container":"#93000a","on-secondary-fixed-variant":"#00458e","eco-green":"#16A34A","on-tertiary-fixed":"#00201d","on-secondary-container":"#002d61","on-surface":"#191c1e","outline-variant":"#c5c6cd","primary-fixed":"#d6e3fe","secondary-fixed-dim":"#aac7ff","surface-tint":"#525f75","surface-container-high":"#e6e8ea","tertiary":"#000000","error":"#ba1a1a","warm-gold":"#D97706","secondary":"#005cba","secondary-fixed":"#d7e3ff","secondary-container":"#5095fe","surface-bright":"#f7f9fb","on-primary-fixed-variant":"#3a475c","on-primary":"#ffffff","surface-card":"#FFFFFF","primary-fixed-dim":"#bac7e1"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"margin":"2rem","space-sm":"0.5rem","gutter":"1.5rem","gutter-mobile":"1rem","space-xl":"2.5rem","space-xs":"0.25rem","space-2xl":"4rem","space-3xl":"6rem","space-lg":"1.5rem","space-md":"1rem","margin-mobile":"1rem"},"fontFamily":{"headline-lg-mobile":["Plus Jakarta Sans"],"label-lg":["Inter"],"headline-xl-mobile":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"],"title-md":["Plus Jakarta Sans"],"display":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"label-md":["Inter"],"body-sm":["Plus Jakarta Sans"],"display-mobile":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"label-sm":["Inter"],"headline-md":["Plus Jakarta Sans"]},"fontSize":{"headline-lg-mobile":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"700"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"headline-xl-mobile":["30px",{"lineHeight":"38px","letterSpacing":"-0.015em","fontWeight":"700"}],"headline-xl":["40px",{"lineHeight":"48px","letterSpacing":"-0.02em","fontWeight":"700"}],"title-md":["18px",{"lineHeight":"26px","fontWeight":"600"}],"display":["56px",{"lineHeight":"64px","letterSpacing":"-0.03em","fontWeight":"800"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"600"}],"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"600"}],"body-sm":["14px",{"lineHeight":"20px","fontWeight":"400"}],"display-mobile":["38px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"800"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.015em","fontWeight":"700"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"500"}],"headline-md":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"600"}]}}}}</script><style>
+      body::-webkit-scrollbar { display: none; }
+      html { scrollbar-width: none; }
+      body { -ms-overflow-style: none; min-height: auto !important; }
+    </style></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 w-full z-50 shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="bg-primary-container text-on-primary border-b border-navy-secondary/30"><div class="max-w-7xl mx-auto px-margin flex items-center justify-between h-10 font-label-sm text-label-sm"><div class="flex items-center gap-space-lg"><span class="flex items-center gap-space-xs text-on-primary/90"><span class="material-symbols-outlined text-[16px] text-solar-cyan">schedule</span><span>Mon - Sat: 9:00 AM - 7:00 PM IST</span></span><span class="hidden md:inline-flex items-center gap-space-xs text-on-primary/80"><span class="material-symbols-outlined text-[16px] text-eco-green">verified_user</span>End-to-End Solar Project Assistance &amp; Coordination Partner</span></div><div class="flex items-center gap-space-md sm:gap-space-lg"><span class="flex items-center gap-space-xs text-on-primary/90 font-label-sm"><span class="material-symbols-outlined text-[16px] text-solar-cyan">support_agent</span><span>Assistance Desk Active | Mon - Sat Support</span></span><div class="hidden sm:flex items-center gap-space-xs pl-space-sm border-l border-white/15"><a class="text-solar-cyan hover:underline font-label-sm" data-path="customer-portal" href="#">Track Application</a><span class="text-white/30">|</span><a class="text-on-primary/80 hover:text-on-primary font-label-sm" data-path="admin-portal" href="#">Admin Login</a></div></div></div></div><div class="bg-surface-container-lowest/95 backdrop-blur-xl border-b border-border-subtle"><div class="max-w-7xl mx-auto px-margin h-20 flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><a class="flex items-center gap-space-sm group" data-path="home" href="/"><img alt="MB Associates - Solar Project Assistance &amp; Coordination Partner" class="h-12 w-auto object-contain" src="/mb-associates-logo.png"></a></div><nav class="hidden xl:flex items-center gap-1 font-label-lg text-label-lg" data-active-classes="text-secondary font-bold bg-secondary-fixed/30 rounded-lg"><a class="px-3 py-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="home" href="/">Home</a><a class="px-3 py-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="about-us" href="/about">About Us</a><div class="relative group"><button class="flex items-center gap-1 px-3 py-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container rounded-lg transition-all" type="button"><span class="font-label-lg text-label-lg">Our Services</span><span class="material-symbols-outlined text-[18px] transition-transform duration-200 group-hover:rotate-180">expand_more</span></button><div class="absolute left-0 top-full hidden group-hover:block w-72 pt-2 z-50"><div class="bg-surface-card rounded-xl border border-border-subtle shadow-[0_10px_25px_-5px_rgba(11,25,44,0.08)] p-2 flex flex-col gap-1"><a class="px-3 py-2 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface text-body-sm font-body-sm transition-colors font-medium" data-path="solar-consultation" href="#">Solar Consultation</a><a class="px-3 py-2 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface text-body-sm font-body-sm transition-colors font-medium" data-path="requirement-assessment" href="#">Requirement Assessment</a><a class="px-3 py-2 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface text-body-sm font-body-sm transition-colors font-medium" data-path="loan-assistance" href="#">Loan Assistance</a><a class="px-3 py-2 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface flex items-center justify-between text-body-sm font-body-sm transition-colors" data-path="pm-surya-ghar-subsidy-guidance" href="#"><span class="font-medium">PM Surya Ghar Subsidy Guidance</span><span class="text-[10px] px-1.5 py-0.5 rounded bg-eco-green/10 text-eco-green font-semibold">Advisory</span></a><a class="px-3 py-2 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface text-body-sm font-body-sm transition-colors font-medium" data-path="documentation-support" href="#">Documentation Support</a><a class="px-3 py-2 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface text-body-sm font-body-sm transition-colors font-medium" data-path="nearby-vendor-verification" href="#">Nearby Vendor Verification</a><a class="px-3 py-2 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface text-body-sm font-body-sm transition-colors font-medium" data-path="vendor-assignment" href="#">Vendor Assignment</a><a class="px-3 py-2 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface text-body-sm font-body-sm transition-colors font-medium" data-path="site-visit-coordination" href="#">Site Visit Coordination</a><a class="px-3 py-2 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface text-body-sm font-body-sm transition-colors font-medium" data-path="installation-follow-up" href="#">Installation Follow-up</a><a class="px-3 py-2 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface text-body-sm font-body-sm transition-colors font-medium" data-path="after-installation-support" href="#">After-Installation Support</a></div></div></div><a class="px-3 py-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="solar-calculator" href="/solar-calculator">Solar Calculator</a><a class="px-3 py-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="subsidy-and-loan-assistance" href="/subsidy-finance">Subsidy &amp; Loan Assistance</a><a class="px-3 py-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="how-it-works" href="/how-it-works">How It Works</a><a class="px-3 py-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="contact-us" href="/contact">Contact Us</a></nav><div class="flex items-center gap-space-sm"><a class="hidden sm:inline-flex items-center gap-1.5 px-3 py-2 rounded-lg border border-border-subtle bg-surface-card hover:bg-surface-container hover:border-secondary text-primary-container font-label-md text-label-md transition-all" data-path="contact-us" href="/contact"><span class="material-symbols-outlined text-[17px] text-solar-cyan">support_agent</span><span>Assistance Desk</span></a><a class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-brand-accent-red hover:bg-red-700 text-on-error font-label-lg text-label-lg shadow-sm hover:shadow-md transition-all" data-path="contact-us" href="/contact"><span class="material-symbols-outlined text-[18px]">calendar_month</span><span>Get Free Consultation</span></a></div></div></div></header><main class="w-full pt-[120px] bg-surface min-h-[calc(100vh-120px)]"><div class="flex flex-col w-full">
+<!-- Top Ambient Glow & Breadcrumbs Banner -->
+<section class="relative w-full bg-surface-container-low px-margin py-space-xl overflow-hidden">
+<div class="absolute -top-32 right-12 w-96 h-96 rounded-full bg-secondary/5 blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-24 left-1/4 w-80 h-80 rounded-full bg-solar-cyan/5 blur-3xl pointer-events-none"></div>
+<div class="max-w-7xl mx-auto flex flex-col gap-space-md relative z-10">
+<!-- Breadcrumbs -->
+<nav aria-label="Breadcrumbs" class="flex items-center gap-space-xs font-label-md text-label-md text-on-surface-variant">
+<a class="hover:text-secondary transition-colors flex items-center gap-1" data-path="home" href="/">
+<span class="material-symbols-outlined text-[16px]">home</span>
+<span>Home</span>
+</a>
+<span class="material-symbols-outlined text-[14px] text-outline-variant">chevron_right</span>
+<span class="text-on-surface font-semibold">Our Services</span>
+</nav>
+<!-- Section Title & Meta Pill -->
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-lg pt-space-xs">
+<div class="max-w-3xl flex flex-col gap-space-sm">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary-fixed/40 text-secondary font-label-sm text-label-sm w-fit">
+<span class="material-symbols-outlined text-[14px]">assured_workload</span>
+<span>Comprehensive 10-Stage Coordination Ecosystem</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">
+            End-to-End Solar Project Assistance &amp; Coordination Services
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">MB Associates coordinates solar projects with nearby verified vendors and assists with loan applications, subsidy guidance, documentation, installation coordination, and post-installation support.</p>
+</div>
+<!-- Quick Metrics Pill Matrix -->
+<div class="flex flex-wrap sm:flex-nowrap gap-space-sm bg-surface-container-lowest p-space-sm rounded-xl shadow-sm">
+
+<div class="flex items-center gap-space-xs px-space-sm py-space-xs rounded-lg bg-surface-container-low">
+<span class="material-symbols-outlined text-warm-gold text-[20px]">account_balance</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-bold">PM Surya Ghar</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Advisory Backed</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs px-space-sm py-space-xs rounded-lg bg-surface-container-low">
+<span class="material-symbols-outlined text-solar-cyan text-[20px]">handshake</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-bold">Neutral Advocate</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Zero Vendor Bias</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Visual Workflow Highlight Bar -->
+<section class="w-full bg-surface py-space-lg px-margin">
+<div class="max-w-7xl mx-auto bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm flex flex-col lg:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed/50 flex items-center justify-center flex-shrink-0 text-secondary">
+<span class="material-symbols-outlined text-[26px]">linear_scale</span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface">Structured Advisory Lifecycle</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Structured in four transparent operational quadrants to guarantee no milestone oversights.</span>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-2">
+<span class="px-3 py-1.5 rounded-lg bg-surface-container font-label-md text-label-md text-on-surface font-medium flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-secondary"></span> 1. Evaluation &amp; Sizing
+        </span>
+<span class="px-3 py-1.5 rounded-lg bg-surface-container font-label-md text-label-md text-on-surface font-medium flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-warm-gold"></span> 2. Grants &amp; Financing
+        </span>
+<span class="px-3 py-1.5 rounded-lg bg-surface-container font-label-md text-label-md text-on-surface font-medium flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-solar-cyan"></span> 3. Vendor Matching &amp; EPC
+        </span>
+<span class="px-3 py-1.5 rounded-lg bg-surface-container font-label-md text-label-md text-on-surface font-medium flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-eco-green"></span> 4. Net-Metering &amp; Warranty
+        </span>
+</div>
+</div>
+</section>
+<!-- Comprehensive 10 Service Catalog -->
+<section class="w-full bg-surface px-margin py-space-xl">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-2xl">
+<!-- Section Intro & Filter Pill Tabs -->
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div>
+<span class="font-label-sm text-label-sm text-solar-cyan uppercase tracking-wider font-semibold">Service Directory</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Precision Solar Coordination Blueprint</h2>
+</div>
+<div class="flex flex-wrap gap-2" id="service-filter-bar">
+<button class="filter-btn px-4 py-2 rounded-lg bg-primary-container text-on-primary font-label-md text-label-md shadow-sm transition-all" data-category="all" type="button">All 10 Services</button>
+<button class="filter-btn px-4 py-2 rounded-lg bg-surface-container-high text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all" data-category="feasibility" type="button">Feasibility &amp; Sizing</button>
+<button class="filter-btn px-4 py-2 rounded-lg bg-surface-container-high text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all" data-category="statutory" type="button">Finance &amp; Subsidy</button>
+<button class="filter-btn px-4 py-2 rounded-lg bg-surface-container-high text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all" data-category="execution" type="button">Execution &amp; Handover</button>
+</div>
+</div>
+<!-- Bento Grid / Dynamic Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter" id="services-grid">
+<!-- 1. Solar Consultation -->
+<article class="service-card group bg-surface-card rounded-2xl p-space-lg shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between" data-category="feasibility">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="w-12 h-12 rounded-xl bg-secondary-fixed/30 text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[28px]">query_stats</span>
+</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-bold bg-surface-container px-2.5 py-1 rounded-full">Phase 01</span>
+</div>
+<div>
+<div class="inline-flex items-center gap-1.5 text-solar-cyan font-label-sm text-label-sm font-semibold mb-1">
+<span>Neutral Architecture Advisory</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface group-hover:text-secondary transition-colors">
+                1. Solar Consultation
+              </h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              We perform rigorous unbiased energy consumption audits, roof azimuth &amp; tilt advisories, and transparent comparative analyses across on-grid net-metered, hybrid battery-backed, and stand-alone systems.
+            </p>
+<div class="bg-surface-container-low rounded-xl p-space-md flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface font-bold uppercase tracking-wider">Key Deliverables:</span>
+<ul class="flex flex-col gap-1 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-start gap-1.5"><span class="material-symbols-outlined text-[16px] text-eco-green mt-0.5">check_circle</span>12-month tariff load curve audit</li>
+<li class="flex items-start gap-1.5"><span class="material-symbols-outlined text-[16px] text-eco-green mt-0.5">check_circle</span>Grid-tied vs Hybrid battery cost model</li>
+<li class="flex items-start gap-1.5"><span class="material-symbols-outlined text-[16px] text-eco-green mt-0.5">check_circle</span>Zero-vendor-bias brand agnostic reports</li>
+</ul>
+</div>
+</div>
+<div class="pt-space-md mt-space-sm flex items-center justify-between">
+<span class="text-label-sm font-label-sm text-on-surface-variant">Feasibility &amp; Strategy</span>
+<a class="inline-flex items-center gap-1 text-secondary font-label-md text-label-md hover:gap-2 transition-all" data-path="solar-consultation" href="#">
+<span>Explore Scope</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</article>
+<!-- 2. Solar Requirement Assessment -->
+<article class="service-card group bg-surface-card rounded-2xl p-space-lg shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between" data-category="feasibility">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="w-12 h-12 rounded-xl bg-solar-cyan/15 text-solar-cyan flex items-center justify-center">
+<span class="material-symbols-outlined text-[28px]">domain_verification</span>
+</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-bold bg-surface-container px-2.5 py-1 rounded-full">Phase 02</span>
+</div>
+<div>
+<div class="inline-flex items-center gap-1.5 text-solar-cyan font-label-sm text-label-sm font-semibold mb-1">
+<span>Technical Capacity Engineering</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface group-hover:text-secondary transition-colors">
+                2. Solar Requirement Assessment
+              </h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Precision sanctioned load cross-matching with DISCOM meter ratings, 3D sun-path simulation for near and far horizon shadows, and calculated kWp rooftop dimension optimization to avoid over-inversion.
+            </p>
+<div class="bg-surface-container-low rounded-xl p-space-md flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface font-bold uppercase tracking-wider">Key Deliverables:</span>
+<ul class="flex flex-col gap-1 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-start gap-1.5"><span class="material-symbols-outlined text-[16px] text-eco-green mt-0.5">check_circle</span>DISCOM sanctioned load eligibility validation</li>
+<li class="flex items-start gap-1.5"><span class="material-symbols-outlined text-[16px] text-eco-green mt-0.5">check_circle</span>Solmetric shadow analysis &amp; generation loss graph</li>
+<li class="flex items-start gap-1.5"><span class="material-symbols-outlined text-[16px] text-eco-green mt-0.5">check_circle</span>Optimal DC-to-AC array capacity ratioing</li>
+</ul>
+</div>
+</div>
+<div class="pt-space-md mt-space-sm flex items-center justify-between">
+<span class="text-label-sm font-label-sm text-on-surface-variant">Engineering Assessment</span>
+<a class="inline-flex items-center gap-1 text-secondary font-label-md text-label-md hover:gap-2 transition-all" data-path="requirement-assessment" href="#">
+<span>Explore Scope</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</article>
+<!-- 3. Loan Assistance -->
+<article class="service-card group bg-surface-card rounded-2xl p-space-lg shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between" data-category="statutory">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="w-12 h-12 rounded-xl bg-warm-gold/15 text-warm-gold flex items-center justify-center">
+<span class="material-symbols-outlined text-[28px]">payments</span>
+</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-bold bg-surface-container px-2.5 py-1 rounded-full">Phase 03</span>
+</div>
+<div>
+<div class="inline-flex items-center gap-1.5 text-warm-gold font-label-sm text-label-sm font-semibold mb-1">
+<span>Zero False Guarantees</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface group-hover:text-secondary transition-colors">
+                3. Loan Assistance
+              </h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Step-by-step facilitation through low-interest PSU solar schemes including SBI Surya Ghar, Canara Bank, and Union Bank rooftop credit pipelines with comprehensive dossier drafting and loan appraisal guidance.
+            </p>
+<div class="bg-surface-container-low rounded-xl p-space-md flex flex-col gap-space-xs"><span class="font-label-sm text-label-sm text-on-surface font-bold uppercase tracking-wider">Key Deliverables:</span><ul class="flex flex-col gap-1 font-body-sm text-body-sm text-on-surface-variant"><li class="flex items-start gap-1.5"><span class="material-symbols-outlined text-[16px] text-eco-green mt-0.5">check_circle</span>PSU solar loan scheme coordination &amp; facilitation</li><li class="flex items-start gap-1.5"><span class="material-symbols-outlined text-[16px] text-eco-green mt-0.5">check_circle</span>KYC, IT returns, &amp; property proof sanitization</li><li class="flex items-start gap-1.5"><span class="material-symbols-outlined text-[16px] text-eco-green mt-0.5">check_circle</span>Direct bank nodal liaison; no middlemen commission</li><li class="flex items-start gap-1.5 text-on-surface-variant/90"><span class="material-symbols-outlined text-[16px] text-warm-gold mt-0.5">info</span>Note: Interest rates and loan terms are subject to lending bank terms and applicant credit profile</li></ul></div>
+</div>
+<div class="pt-space-md mt-space-sm flex items-center justify-between">
+<span class="text-label-sm font-label-sm text-on-surface-variant">Financial Advisory</span>
+<a class="inline-flex items-center gap-1 text-secondary font-label-md text-label-md hover:gap-2 transition-all" data-path="loan-assistance" href="#">
+<span>Explore Scope</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</article>
+<!-- 4. PM Surya Ghar Subsidy Guidance -->
+<article class="service-card group bg-surface-card rounded-2xl p-space-lg shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between" data-category="statutory">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="w-12 h-12 rounded-xl bg-eco-green/15 text-eco-green flex items-center justify-center">
+<span class="material-symbols-outlined text-[28px]">policy</span>
+</span>
+<span class="font-label-sm text-label-sm text-eco-green font-bold bg-eco-green/10 px-2.5 py-1 rounded-full">Central CFA Claim</span>
+</div>
+<div>
+<div class="inline-flex items-center gap-1.5 text-eco-green font-label-sm text-label-sm font-semibold mb-1">
+<span>National Portal MNRE Liaison</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface group-hover:text-secondary transition-colors">
+                4. PM Surya Ghar Subsidy Guidance
+              </h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Complete oversight of the National Portal registration lifecycle, DISCOM consumer ID data verification, inspection clearance submission, and Central Financial Assistance (CFA up to ₹78,000) disbursement tracking.
+            </p>
+<div class="bg-surface-container-low rounded-xl p-space-md flex flex-col gap-space-xs"><span class="font-label-sm text-label-sm text-on-surface font-bold uppercase tracking-wider">Key Deliverables:</span><ul class="flex flex-col gap-1 font-body-sm text-body-sm text-on-surface-variant"><li class="flex items-start gap-1.5"><span class="material-symbols-outlined text-[16px] text-eco-green mt-0.5">check_circle</span>PM Surya Ghar Muft Bijli Yojana account creation</li><li class="flex items-start gap-1.5"><span class="material-symbols-outlined text-[16px] text-eco-green mt-0.5">check_circle</span>Zero-mismatch DISCOM bill &amp; bank passbook sync</li><li class="flex items-start gap-1.5"><span class="material-symbols-outlined text-[16px] text-eco-green mt-0.5">check_circle</span>Direct-benefit transfer (DBT) claim tracking</li><li class="flex items-start gap-1.5 text-on-surface-variant/90"><span class="material-symbols-outlined text-[16px] text-solar-cyan mt-0.5">info</span>Note: Subsidies subject to official DISCOM and National Portal approval</li></ul></div>
+</div>
+<div class="pt-space-md mt-space-sm flex items-center justify-between">
+<span class="text-label-sm font-label-sm text-on-surface-variant">Govt Scheme Advisory</span>
+<a class="inline-flex items-center gap-1 text-secondary font-label-md text-label-md hover:gap-2 transition-all" data-path="pm-surya-ghar-subsidy-guidance" href="#">
+<span>Explore Scope</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</article>
+<!-- 5. Documentation Support -->
+<article class="service-card group bg-surface-card rounded-2xl p-space-lg shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between" data-category="statutory">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="w-12 h-12 rounded-xl bg-primary-container/10 text-primary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-[28px]">inventory</span>
+</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-bold bg-surface-container px-2.5 py-1 rounded-full">Phase 05</span>
+</div>
+<div>
+<div class="inline-flex items-center gap-1.5 text-solar-cyan font-label-sm text-label-sm font-semibold mb-1">
+<span>Compliance &amp; Legal Precision</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface group-hover:text-secondary transition-colors">
+                5. Documentation Support
+              </h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Meticulous DISCOM paperwork handling, society NOC clearance frameworks, property tax receipt correlation, and proactive tracking of statutory Service Level Agreements (SLAs) for power grid connectivity.
+            </p>
+<div class="bg-surface-container-low rounded-xl p-space-md flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface font-bold uppercase tracking-wider">Key Deliverables:</span>
+<ul class="flex flex-col gap-1 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-start gap-1.5"><span class="material-symbols-outlined text-[16px] text-eco-green mt-0.5">check_circle</span>Complete DISCOM feasibility test forms</li>
+<li class="flex items-start gap-1.5"><span class="material-symbols-outlined text-[16px] text-eco-green mt-0.5">check_circle</span>RWA/Housing Society resolution documentation</li>
+<li class="flex items-start gap-1.5"><span class="material-symbols-outlined text-[16px] text-eco-green mt-0.5">check_circle</span>Statutory SLA calendar to prevent project stalls</li>
+</ul>
+</div>
+</div>
+<div class="pt-space-md mt-space-sm flex items-center justify-between">
+<span class="text-label-sm font-label-sm text-on-surface-variant">Statutory Compliance</span>
+<a class="inline-flex items-center gap-1 text-secondary font-label-md text-label-md hover:gap-2 transition-all" data-path="documentation-support" href="#">
+<span>Explore Scope</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</article>
+<!-- 6. Nearby Vendor Verification -->
+<article class="service-card group bg-surface-card rounded-2xl p-space-lg shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between" data-category="execution">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="w-12 h-12 rounded-xl bg-secondary-fixed/40 text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[28px]">verified_user</span>
+</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-bold bg-surface-container px-2.5 py-1 rounded-full">Phase 06</span>
+</div>
+<div>
+<div class="inline-flex items-center gap-1.5 text-secondary font-label-sm text-label-sm font-semibold mb-1">
+<span>Vendor Quality Assurance</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface group-hover:text-secondary transition-colors">
+                6. Nearby Vendor Verification
+              </h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">We connect customers with verified regional EPC installers, evaluating contractor track record, business licensing, and documented rooftop installation history for dependable project coordination.</p>
+<div class="bg-surface-container-low rounded-xl p-space-md flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface font-bold uppercase tracking-wider">Key Deliverables:</span>
+<ul class="flex flex-col gap-1 font-body-sm text-body-sm text-on-surface-variant"><li class="flex items-start gap-1.5"><span class="material-symbols-outlined text-[16px] text-eco-green mt-0.5">check_circle</span>Installer credential &amp; operational license review</li>
+<li class="flex items-start gap-1.5"><span class="material-symbols-outlined text-[16px] text-eco-green mt-0.5">check_circle</span>Regional installation history &amp; reference validation</li>
+<li class="flex items-start gap-1.5"><span class="material-symbols-outlined text-[16px] text-eco-green mt-0.5">check_circle</span>Standardized tripartite coordination agreements</li></ul>
+</div>
+</div>
+<div class="pt-space-md mt-space-sm flex items-center justify-between">
+<span class="text-label-sm font-label-sm text-on-surface-variant">Vendor Quality Audit</span>
+<a class="inline-flex items-center gap-1 text-secondary font-label-md text-label-md hover:gap-2 transition-all" data-path="nearby-vendor-verification" href="#">
+<span>Explore Scope</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</article>
+<!-- 7. Vendor Assignment -->
+<article class="service-card group bg-surface-card rounded-2xl p-space-lg shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between" data-category="execution">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="w-12 h-12 rounded-xl bg-solar-cyan/20 text-solar-cyan flex items-center justify-center">
+<span class="material-symbols-outlined text-[28px]">hub</span>
+</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-bold bg-surface-container px-2.5 py-1 rounded-full">Phase 07</span>
+</div>
+<div>
+<div class="inline-flex items-center gap-1.5 text-solar-cyan font-label-sm text-label-sm font-semibold mb-1">
+<span>Algorithmic EPC Pairing</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface group-hover:text-secondary transition-colors">
+                7. Vendor Assignment
+              </h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Smart allocation matching your specific project type (RCC terrace, tin-shed industrial, elevated structure) with vetted regional contractors possessing proven local grid familiarity and competitive pricing.
+            </p>
+<div class="bg-surface-container-low rounded-xl p-space-md flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface font-bold uppercase tracking-wider">Key Deliverables:</span>
+<ul class="flex flex-col gap-1 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-start gap-1.5"><span class="material-symbols-outlined text-[16px] text-eco-green mt-0.5">check_circle</span>Site complexity matrix &amp; specialized team pairing</li>
+<li class="flex items-start gap-1.5"><span class="material-symbols-outlined text-[16px] text-eco-green mt-0.5">check_circle</span>Strict competitive rate bench-marking</li>
+<li class="flex items-start gap-1.5"><span class="material-symbols-outlined text-[16px] text-eco-green mt-0.5">check_circle</span>Standardized tripartite coordination contract</li>
+</ul>
+</div>
+</div>
+<div class="pt-space-md mt-space-sm flex items-center justify-between">
+<span class="text-label-sm font-label-sm text-on-surface-variant">Resource Assignment</span>
+<a class="inline-flex items-center gap-1 text-secondary font-label-md text-label-md hover:gap-2 transition-all" data-path="vendor-assignment" href="#">
+<span>Explore Scope</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</article>
+<!-- 8. Site Visit Coordination -->
+<article class="service-card group bg-surface-card rounded-2xl p-space-lg shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between" data-category="execution">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="w-12 h-12 rounded-xl bg-warm-gold/20 text-warm-gold flex items-center justify-center">
+<span class="material-symbols-outlined text-[28px]">home_pin</span>
+</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-bold bg-surface-container px-2.5 py-1 rounded-full">Phase 08</span>
+</div>
+<div>
+<div class="inline-flex items-center gap-1.5 text-warm-gold font-label-sm text-label-sm font-semibold mb-1">
+<span>Civil &amp; Structural Safety</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface group-hover:text-secondary transition-colors">
+                8. Site Visit Coordination
+              </h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              We schedule on-ground engineering structural checks, parapet wind-speed resistance reviews, AC/DC cable path discovery, and earth pit location validations using rigorous 24-point physical inspection protocols.
+            </p>
+<div class="bg-surface-container-low rounded-xl p-space-md flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface font-bold uppercase tracking-wider">Key Deliverables:</span>
+<ul class="flex flex-col gap-1 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-start gap-1.5"><span class="material-symbols-outlined text-[16px] text-eco-green mt-0.5">check_circle</span>Civil structure weight-bearing verification</li>
+<li class="flex items-start gap-1.5"><span class="material-symbols-outlined text-[16px] text-eco-green mt-0.5">check_circle</span>Safe earthing &amp; lightning arrester pathway mapping</li>
+<li class="flex items-start gap-1.5"><span class="material-symbols-outlined text-[16px] text-eco-green mt-0.5">check_circle</span>Inverter placement &amp; thermal dissipation audit</li>
+</ul>
+</div>
+</div>
+<div class="pt-space-md mt-space-sm flex items-center justify-between">
+<span class="text-label-sm font-label-sm text-on-surface-variant">On-Site Engineering</span>
+<a class="inline-flex items-center gap-1 text-secondary font-label-md text-label-md hover:gap-2 transition-all" data-path="site-visit-coordination" href="#">
+<span>Explore Scope</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</article>
+<!-- 9. Installation Follow-up -->
+<article class="service-card group bg-surface-card rounded-2xl p-space-lg shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between" data-category="execution">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="w-12 h-12 rounded-xl bg-eco-green/15 text-eco-green flex items-center justify-center">
+<span class="material-symbols-outlined text-[28px]">precision_manufacturing</span>
+</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-bold bg-surface-container px-2.5 py-1 rounded-full">Phase 09</span>
+</div>
+<div>
+<div class="inline-flex items-center gap-1.5 text-eco-green font-label-sm text-label-sm font-semibold mb-1">
+<span>Milestone Gatekeeping</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface group-hover:text-secondary transition-colors">
+                9. Installation Follow-up
+              </h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Active project oversight monitoring mounting installation milestones, cabling neatness, safety adherence, and timeline coordination so your installation proceeds predictably.</p>
+<div class="bg-surface-container-low rounded-xl p-space-md flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface font-bold uppercase tracking-wider">Key Deliverables:</span>
+<ul class="flex flex-col gap-1 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-start gap-1.5"><span class="material-symbols-outlined text-[16px] text-eco-green mt-0.5">check_circle</span>Mounting structure &amp; layout visual inspection</li>
+<li class="flex items-start gap-1.5"><span class="material-symbols-outlined text-[16px] text-eco-green mt-0.5">check_circle</span>DC surge protection device (SPD) check</li>
+<li class="flex items-start gap-1.5"><span class="material-symbols-outlined text-[16px] text-eco-green mt-0.5">check_circle</span>Real-time milestone progress log updates</li>
+</ul>
+</div>
+</div>
+<div class="pt-space-md mt-space-sm flex items-center justify-between">
+<span class="text-label-sm font-label-sm text-on-surface-variant">Quality Control</span>
+<a class="inline-flex items-center gap-1 text-secondary font-label-md text-label-md hover:gap-2 transition-all" data-path="installation-follow-up" href="#">
+<span>Explore Scope</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</article>
+<!-- 10. After-Installation Support -->
+<article class="service-card group bg-surface-card rounded-2xl p-space-lg shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between md:col-span-2 lg:col-span-3 bg-gradient-to-r from-surface-card via-surface-card to-surface-container-low" data-category="execution">
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-gutter items-center">
+<div class="flex flex-col gap-space-md lg:col-span-2">
+<div class="flex items-center gap-space-sm">
+<span class="w-12 h-12 rounded-xl bg-primary-container text-solar-cyan flex items-center justify-center">
+<span class="material-symbols-outlined text-[28px]">electric_meter</span>
+</span>
+<div>
+<span class="font-label-sm text-label-sm text-eco-green font-bold bg-eco-green/10 px-2.5 py-0.5 rounded-full">Commissioning &amp; Lifelong ROI</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">10. After-Installation Support &amp; Net-Meter Sync</h3>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Our responsibility doesn't conclude when the panels are mounted. We escort your net-metering commissioning through DISCOM testing labs, assist with official bi-directional meter synchronization, register 25-year panel and inverter manufacturer warranties, and provide an active escalations portal for performance shortfalls.
+              </p>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm">
+<div class="p-space-sm rounded-xl bg-surface-container flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">DISCOM Meter Sync</span>
+<span class="font-label-md text-label-md text-on-surface font-bold">Bi-Directional Testing</span>
+</div>
+<div class="p-space-sm rounded-xl bg-surface-container flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Warranty Registry</span>
+<span class="font-label-md text-label-md text-on-surface font-bold">25-Yr Performance Cert</span>
+</div>
+<div class="p-space-sm rounded-xl bg-surface-container flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Grievance Escalation</span>
+<span class="font-label-md text-label-md text-on-surface font-bold">Direct Partner SLA Support</span>
+</div>
+</div>
+</div>
+<!-- Visual Graphic / Interactive Portal Prompt -->
+<div class="p-space-lg rounded-xl bg-primary-container text-on-primary flex flex-col justify-between gap-space-md shadow-md">
+<div class="flex items-center justify-between">
+<span class="material-symbols-outlined text-solar-cyan text-[32px]">published_with_changes</span>
+<span class="font-label-sm text-label-sm bg-navy-secondary px-2.5 py-1 rounded text-on-primary">Always Active</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-title-md text-title-md font-bold">Have an Installed Plant?</span>
+<p class="font-body-sm text-body-sm text-on-primary-container">
+                  Stuck with net-meter delays or pending DISCOM clearances? Our nodal desk coordinates stalled approvals.
+                </p>
+</div>
+<a class="w-full text-center py-2.5 rounded-lg bg-solar-cyan hover:bg-sky-600 text-on-primary font-label-md text-label-md transition-colors" data-path="after-installation-support" href="#">
+                Connect Post-Install Desk
+              </a>
+</div>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- Technical Depth Photo Section: Visual Verification Process -->
+<section class="w-full bg-surface-container-low px-margin py-space-2xl">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-xl">
+<div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-space-md">
+<div>
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider">Field Operations Standard</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Physical Verification in Action</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          How MB Associates safeguards capital investments on high-value rooftop solar structures before vendor disbursement.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<div class="bg-surface-card rounded-2xl overflow-hidden shadow-sm flex flex-col">
+<div class="h-48 w-full bg-cover bg-center" data-alt="High quality engineering photograph of a solar engineer measuring roof structural integrity on a residential Indian rooftop using specialized tilt meter with sharp daylight, deep navy corporate safety vest, crisp focus on measuring instruments" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBwRmMVpMq2jG-k2nialhZ7Tq_u3L760gHOBqJvpVlcU642UVnYNhimWsVslOXNM20r3JAVmarhOikukZjSBsfHtjyGqd-hJ3-UROpNMly8w48VLaPtf_H5MBeK3NvhUSl8426XchXlx0bQuSWT9rkw1nR0SyFL_BVHPexvSGfKRO98P-3hDjVzjeS4voDoUSjFHG2MgvL7-4ms4J3B9Let012RrindkehV3R5dT2E')"></div>
+<div class="p-space-md flex flex-col gap-space-xs flex-grow">
+<span class="font-label-sm text-label-sm text-solar-cyan font-bold">Step 1: Structural Scan</span>
+<h4 class="font-title-md text-title-md text-on-surface">Terrace Dead-Load Auditing</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Assessing concrete beam integrity and wind deflection parameters to calculate elevated superstructure safety margins.</p>
+</div>
+</div>
+<div class="bg-surface-card rounded-2xl overflow-hidden shadow-sm flex flex-col"><div class="h-48 w-full bg-cover bg-center" data-alt="Close up view of certified solar photovoltaic panels being securely fastened by technician" style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuDRpkiJ1RFrMC29XOeYzCxZ-LZut-uTA9_JV3wdEggKsTnf9W9_Da8wBW9dJEdeWzDY9brnOwVeK0yPQCg4bVZERaFhuf5Z1-d1mBjJu3nAXFrlg7NI0Q670mvGTBslyEyjAFCBlkgF2G0ah6d5_vxLY1qUF-6VgvSPXYV4z9Frv2gUUevJigRRbZmB7GEWW3uVlHYm8iH4FH7gye0yXor4KLmqYm0xTqkxCM1MNbQ&quot;);"></div>
+<div class="p-space-md flex flex-col gap-space-xs flex-grow">
+<span class="font-label-sm text-label-sm text-eco-green font-bold">Step 2: Component Verification</span>
+<h4 class="font-title-md text-title-md text-on-surface">Delivery &amp; Hardware Audit</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Cross-checking delivered equipment invoices against project bills of quantity to ensure scheduled materials match specifications before mounting.</p>
+</div></div>
+<div class="bg-surface-card rounded-2xl overflow-hidden shadow-sm flex flex-col">
+<div class="h-48 w-full bg-cover bg-center" data-alt="Macro view of a modern bidirectional net meter being tested with digital multimeter with LED indicators glowing, solar electrical junction box neatly organized in modern residential utility wall" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCxvwUm19BhY-W6lH9g7lQ9ZBuHiTjaQv2CAQ_mo609N9gKzfdfm2kcm7772DTvY8o92JfAVZETBkyn13TO5z3Wdow2Umi_QcN5gvZBUW19K2E96TWnp6sV27uKfWCDkhmW_vdZcU0_yS76g9uaBe97Kg8oF3gHZqw0CI7ib6F_coTlmFV_GQpW35DWezFmZeueLamvjRi1nXhKVI40JpFtfBVWGOG1X6nhzzf6m4U')"></div>
+<div class="p-space-md flex flex-col gap-space-xs flex-grow">
+<span class="font-label-sm text-label-sm text-warm-gold font-bold">Step 3: Grid Interlock</span>
+<h4 class="font-title-md text-title-md text-on-surface">Bi-Directional Meter Protocol</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">DISCOM testing bench accompaniment to guarantee the bidirectional generation meter is calibrated to zero export discrepancy.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Comparison Matrix: MB Associates vs Dealing With Unverified Contractors -->
+<section class="w-full bg-surface px-margin py-space-2xl">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-xl">
+<div class="text-center max-w-3xl mx-auto flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-brand-accent-red font-bold uppercase tracking-wider">Unbiased Advocacy vs Traditional EPC</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">
+          Why Work With MB Associates vs Dealing With Unverified Local Contractors Directly
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Solar is a 25-year infrastructure commitment. Avoid unbacked sales promises, vanished local fabricators, and rejected subsidy claims.
+        </p>
+</div>
+<!-- Elevated Table Container -->
+<div class="w-full bg-surface-card rounded-2xl shadow-md overflow-hidden">
+<div class="overflow-x-auto">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-primary-container text-on-primary">
+<th class="p-space-md font-title-md text-title-md w-1/3">Evaluation Metric</th>
+<th class="p-space-md font-title-md text-title-md w-1/3 bg-secondary">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[20px]">shield</span>
+<span>MB Associates (Advisory &amp; Coordination)</span>
+</div>
+</th>
+<th class="p-space-md font-title-md text-title-md w-1/3 text-on-primary-container">
+                  Direct Local Contractor / Unverified Vendor
+                </th>
+</tr>
+</thead>
+<tbody class="divide-y divide-border-subtle font-body-sm text-body-sm">
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="p-space-md font-semibold text-on-surface">
+<div class="flex flex-col">
+<span>Impartial Technical Advice</span>
+<span class="font-normal text-on-surface-variant text-label-sm">System sizing, component selections</span>
+</div>
+</td>
+<td class="p-space-md bg-secondary-fixed/20 text-on-surface font-medium">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-eco-green text-[20px]">check_circle</span>
+<span>100% brand-agnostic. We recommend what suits your roof &amp; tariff profile, not what gives dealer margins.</span>
+</div>
+</td>
+<td class="p-space-md text-on-surface-variant">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-brand-accent-red text-[20px]">cancel</span>
+<span>Bias towards specific panel brands or inverters that yield high dealer commissions or cleared old inventory.</span>
+</div>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="p-space-md font-semibold text-on-surface">
+<div class="flex flex-col">
+<span>Vendor Verification &amp; EPC Vetting</span>
+<span class="font-normal text-on-surface-variant text-label-sm">Module authenticity &amp; worker insurance</span>
+</div>
+</td>
+<td class="p-space-md bg-secondary-fixed/20 text-on-surface font-medium"><div class="flex items-center gap-2"><span class="material-symbols-outlined text-eco-green text-[20px]">check_circle</span><span>Strict installer vetting, credential verification, track-record reviews, and safety compliance checks.</span></div></td>
+<td class="p-space-md text-on-surface-variant"><div class="flex items-center gap-2"><span class="material-symbols-outlined text-brand-accent-red text-[20px]">cancel</span><span>Frequent delays, unverified installer credentials, and un-insured subcontracted labor.</span></div></td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="p-space-md font-semibold text-on-surface">
+<div class="flex flex-col">
+<span>Structured Document Assistance</span>
+<span class="font-normal text-on-surface-variant text-label-sm">DISCOM approvals &amp; PM Surya Ghar CFA</span>
+</div>
+</td>
+<td class="p-space-md bg-secondary-fixed/20 text-on-surface font-medium">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-eco-green text-[20px]">check_circle</span>
+<span>Managed document drafting: DISCOM net-metering SLA, National Portal registration, and direct bank passbook verification.</span>
+</div>
+</td>
+<td class="p-space-md text-on-surface-variant">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-brand-accent-red text-[20px]">cancel</span>
+<span>Homeowner left to navigate bureaucratic portal errors alone, often resulting in months of delayed or rejected subsidies.</span>
+</div>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="p-space-md font-semibold text-on-surface">
+<div class="flex flex-col">
+<span>Single Point of Accountability</span>
+<span class="font-normal text-on-surface-variant text-label-sm">Escalation &amp; project milestone release</span>
+</div>
+</td>
+<td class="p-space-md bg-secondary-fixed/20 text-on-surface font-medium">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-eco-green text-[20px]">check_circle</span>
+<span>Dedicated case coordinator managing installer milestones, payments, and site safety audits on your behalf.</span>
+</div>
+</td>
+<td class="p-space-md text-on-surface-variant">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-brand-accent-red text-[20px]">cancel</span>
+<span>Direct friction with contractors. Payment disputes, unaccounted delays, and zero recourse once final payment is made.</span>
+</div>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="p-space-md font-semibold text-on-surface">
+<div class="flex flex-col">
+<span>Post-Commissioning Follow-up</span>
+<span class="font-normal text-on-surface-variant text-label-sm">Net-meter sync &amp; multi-year escalation</span>
+</div>
+</td>
+<td class="p-space-md bg-secondary-fixed/20 text-on-surface font-medium">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-eco-green text-[20px]">check_circle</span>
+<span>Active follow-up through bidirectional meter synchronization, OEM warranty activation, and prompt grievance resolution.</span>
+</div>
+</td>
+<td class="p-space-md text-on-surface-variant">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-brand-accent-red text-[20px]">cancel</span>
+<span>Contractors often disappear post-installation. Warranty claims with overseas component makers become virtually impossible.</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive ROI & Feasibility Estimator Teaser -->
+<section class="w-full bg-surface-container px-margin py-space-xl">
+<div class="max-w-7xl mx-auto bg-primary-container rounded-3xl p-space-xl text-on-primary relative overflow-hidden shadow-xl">
+<!-- Glow Accent -->
+<div class="absolute -right-20 -top-20 w-80 h-80 rounded-full bg-solar-cyan/20 blur-3xl pointer-events-none"></div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center relative z-10">
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-navy-secondary text-solar-cyan font-label-sm text-label-sm w-fit border border-white/10">
+<span class="material-symbols-outlined text-[15px]">calculate</span>
+<span>Instant Pre-Assessment Engine</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-on-primary">
+            Curious How Much Rooftop Solar You Actually Need?
+          </h3>
+<p class="font-body-md text-body-md text-on-primary-container max-w-xl">
+            Check your projected plant size in kWp, estimated central subsidy eligibility under PM Surya Ghar, and expected 25-year utility savings before booking an on-site audit.
+          </p>
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<a class="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-solar-cyan hover:bg-sky-600 text-on-primary font-label-lg text-label-lg transition-colors shadow-sm" data-path="solar-calculator" href="/solar-calculator">
+<span>Open Solar Calculator</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<a class="inline-flex items-center gap-1.5 px-4 py-3 rounded-lg bg-white/10 hover:bg-white/20 text-on-primary font-label-lg text-label-lg transition-colors" data-path="subsidy-and-loan-assistance" href="/subsidy-finance">
+<span class="material-symbols-outlined text-[18px] text-warm-gold">help</span>
+<span>Subsidy Rules &amp; Slabs</span>
+</a>
+</div>
+</div>
+<!-- Telemetry Card Sample -->
+<div class="bg-surface-container-low border border-outline-variant/30 rounded-2xl p-6 text-center max-w-xl mx-auto my-6 lg:col-span-5 w-full"><span class="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-primary/10 text-primary mb-3">Solar Assistance</span><h3 class="text-xl font-bold text-on-surface mb-2">Request Solar Assistance</h3><p class="text-sm text-on-surface-variant mb-5 leading-relaxed">MB Associates coordinates solar projects with nearby verified vendors and assists with loan applications, subsidy guidance, documentation, installation coordination, and post-installation support.</p><div class="flex flex-wrap items-center justify-center gap-4"><a class="inline-flex items-center px-5 py-2.5 rounded-lg text-sm font-semibold text-white bg-primary hover:bg-primary/90 transition-colors" data-path="solar-calculator" href="/solar-calculator">Request Solar Assistance</a><a class="inline-flex items-center px-5 py-2.5 rounded-lg text-sm font-semibold text-on-surface border border-outline hover:bg-surface-container transition-colors" data-path="contact-us" href="/contact">Contact Coordinator</a></div></div>
+</div>
+</div>
+</section>
+<!-- CTA Section: Consultation Request Module -->
+<section class="w-full bg-surface px-margin py-space-3xl">
+<div class="max-w-5xl mx-auto bg-surface-card rounded-3xl p-space-xl md:p-space-2xl shadow-xl flex flex-col gap-space-lg text-center items-center relative overflow-hidden">
+<!-- Glow element -->
+<div class="absolute -bottom-20 right-0 w-72 h-72 rounded-full bg-brand-accent-red/5 blur-3xl pointer-events-none"></div>
+<div class="w-16 h-16 rounded-2xl bg-brand-accent-red/10 text-brand-accent-red flex items-center justify-center">
+<span class="material-symbols-outlined text-[36px]">support_agent</span>
+</div>
+<div class="max-w-2xl flex flex-col gap-space-xs">
+<h2 class="font-headline-lg text-headline-lg text-on-surface">
+          Need Guidance on Your Rooftop Solar Journey?
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          Request a free consultation with our solar advisory team. We evaluate your electricity bills, check your DISCOM feeder capacity, and match you with verified local EPC installers at zero markup.
+        </p>
+</div>
+<!-- Quick Trust Indicators -->
+<div class="flex flex-wrap justify-center items-center gap-space-md py-space-xs text-on-surface-variant font-label-md text-label-md">
+<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-eco-green text-[18px]">task_alt</span> No sales spam</span>
+<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-eco-green text-[18px]">task_alt</span> 100% Independent coordination</span>
+<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-eco-green text-[18px]">task_alt</span> Pan-DISCOM documentation expertise</span>
+</div>
+<!-- Actions -->
+<div class="flex flex-col sm:flex-row items-center gap-space-md w-full sm:w-auto">
+<a class="w-full sm:w-auto px-8 py-3.5 rounded-lg bg-brand-accent-red hover:bg-red-700 text-on-error font-label-lg text-label-lg shadow-sm hover:shadow-md transition-all flex items-center justify-center gap-2" data-path="contact-us" href="/contact">
+<span class="material-symbols-outlined text-[20px]">calendar_today</span>
+<span>Schedule Free Solar Advisory</span>
+</a>
+<a class="w-full sm:w-auto px-6 py-3.5 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-lg text-label-lg transition-colors flex items-center justify-center gap-2" data-path="contact-us" href="/contact"><span class="material-symbols-outlined text-[20px] text-solar-cyan">support_agent</span><span>Contact Assistance Desk</span></a>
+</div>
+<!-- Statutory Operational Reminder -->
+<p class="font-label-sm text-label-sm text-outline max-w-lg mt-space-xs">
+        MB Associates is an end-to-end solar project assistance and coordination partner. Solar installations are performed by verified independent partner vendors. Loans and subsidies are subject to statutory authority and lending institution approval.
+      </p>
+</div>
+</section>
+</div>
+<script>
+  // Simple interactive filter tabs for the 10 services
+  (function() {
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const serviceCards = document.querySelectorAll('.service-card');
+
+    if (!filterButtons.length || !serviceCards.length) return;
+
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const category = button.getAttribute('data-category');
+
+        // Update button active state styles
+        filterButtons.forEach(btn => {
+          btn.classList.remove('bg-primary-container', 'text-on-primary');
+          btn.classList.add('bg-surface-container-high', 'text-on-surface-variant');
+        });
+        button.classList.add('bg-primary-container', 'text-on-primary');
+        button.classList.remove('bg-surface-container-high', 'text-on-surface-variant');
+
+        // Filter cards
+        serviceCards.forEach(card => {
+          const cardCategory = card.getAttribute('data-category');
+          if (category === 'all' || cardCategory === category) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+  })();
+</script></main><footer class="w-full bg-primary-container text-on-primary border-t border-navy-secondary/40 pt-space-3xl pb-space-xl"><div class="max-w-7xl mx-auto px-margin"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-gutter pb-space-2xl border-b border-navy-secondary/50"><div class="lg:col-span-2 flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><img alt="MB Associates" class="h-12 w-auto brightness-0 invert object-contain" src="/mb-associates-logo.png"></div><p class="font-body-md text-body-md text-on-primary-container leading-relaxed max-w-md">MB Associates is an end-to-end solar project assistance and coordination partner helping consumers, societies, and commercial spaces navigate feasibility assessment, vendor discovery, subsidy documentation, and financing support seamlessly.</p><div class="flex flex-wrap items-center gap-space-xs pt-space-xs"><span class="px-3 py-1 rounded-full bg-navy-secondary text-on-primary font-label-sm text-label-sm flex items-center gap-1.5 border border-white/10"><span class="material-symbols-outlined text-[15px] text-solar-cyan">handshake</span>Neutral Customer Advocate</span><span class="px-3 py-1 rounded-full bg-navy-secondary text-on-primary font-label-sm text-label-sm flex items-center gap-1.5 border border-white/10"><span class="material-symbols-outlined text-[15px] text-eco-green">fact_check</span>Verified Partner Network</span></div></div><div class="flex flex-col gap-space-md"><h4 class="font-title-md text-title-md font-semibold text-on-primary border-b border-white/10 pb-2">Services &amp; Guidance</h4><ul class="flex flex-col gap-space-sm font-body-sm text-body-sm text-on-primary-container"><li class="hover:text-on-primary transition-colors"><a class="hover:text-solar-cyan" data-path="solar-consultation" href="#">Solar Consultation</a></li><li class="hover:text-on-primary transition-colors"><a class="hover:text-solar-cyan" data-path="requirement-assessment" href="#">Requirement Assessment</a></li><li class="hover:text-on-primary transition-colors"><a class="hover:text-solar-cyan" data-path="loan-assistance" href="#">Loan Assistance</a></li><li class="hover:text-on-primary transition-colors"><a class="hover:text-solar-cyan" data-path="pm-surya-ghar-subsidy-guidance" href="#">Subsidy Guidance</a></li><li class="hover:text-on-primary transition-colors"><a class="hover:text-solar-cyan" data-path="documentation-support" href="#">Documentation Support</a></li><li class="hover:text-on-primary transition-colors"><a class="hover:text-solar-cyan" data-path="vendor-assignment" href="#">Vendor Coordination</a></li></ul></div><div class="flex flex-col gap-space-md"><h4 class="font-title-md text-title-md font-semibold text-on-primary border-b border-white/10 pb-2">Tools &amp; Portals</h4><ul class="flex flex-col gap-space-sm font-body-sm text-body-sm text-on-primary-container"><li class="hover:text-on-primary transition-colors"><a class="hover:text-warm-gold flex items-center gap-1.5" data-path="solar-calculator" href="/solar-calculator"><span>Solar Calculator</span><span class="material-symbols-outlined text-[14px]">calculate</span></a></li><li class="hover:text-on-primary transition-colors"><a class="hover:text-solar-cyan" data-path="subsidy-and-loan-assistance" href="/subsidy-finance">Subsidy &amp; Loan Assistance</a></li><li class="hover:text-on-primary transition-colors"><a class="hover:text-solar-cyan" data-path="how-it-works" href="/how-it-works">How It Works</a></li><li class="hover:text-on-primary transition-colors"><a class="hover:text-solar-cyan" data-path="customer-portal" href="#">Customer Track Portal</a></li><li class="hover:text-on-primary transition-colors"><a class="hover:text-solar-cyan" data-path="admin-portal" href="#">Admin Login</a></li></ul></div><div class="flex flex-col gap-space-md"><h4 class="font-title-md text-title-md font-semibold text-on-primary border-b border-white/10 pb-2">Company &amp; Legal</h4><ul class="flex flex-col gap-space-sm font-body-sm text-body-sm text-on-primary-container"><li class="hover:text-on-primary transition-colors"><a class="hover:text-solar-cyan" data-path="home" href="/">Home</a></li><li class="hover:text-on-primary transition-colors"><a class="hover:text-solar-cyan" data-path="about-us" href="/about">About Us</a></li><li class="hover:text-on-primary transition-colors"><a class="hover:text-solar-cyan" data-path="contact-us" href="/contact">Contact Us</a></li><li class="hover:text-on-primary transition-colors"><a class="hover:text-solar-cyan" data-path="privacy-policy" href="#">Privacy Policy</a></li><li class="hover:text-on-primary transition-colors"><a class="hover:text-solar-cyan" data-path="terms-and-conditions" href="#">Terms &amp; Conditions</a></li></ul></div></div><div class="py-space-lg border-b border-navy-secondary/40 text-on-primary-container font-body-sm text-body-sm leading-relaxed"><div class="flex items-start gap-space-sm bg-navy-secondary/30 p-space-md rounded-xl border border-white/5"><span class="material-symbols-outlined text-warm-gold text-[22px] flex-shrink-0 mt-0.5">gavel</span><div><strong class="text-on-primary block mb-0.5 font-title-md text-body-sm">Statutory &amp; Operational Disclaimer:</strong><p class="text-on-primary-container text-body-sm font-body-sm">MB Associates is an end-to-end solar project assistance and coordination partner. Solar installations are performed by verified independent partner vendors. Loans and subsidies are subject to statutory authority and lending institution approval.</p></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-sm font-body-sm text-body-sm text-on-primary-container"><p>© 2025 MB Associates. All rights reserved.</p><p class="text-label-sm font-label-sm text-on-primary-container/80">End-to-End Solar Project Assistance &amp; Coordination Partner</p></div></div></footer>
+
+
+
+<span id="PING_CONTENT_PUSH_NOTIFICATION" style="display: none;"></span>
+
+</body></html>

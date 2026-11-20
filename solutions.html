@@ -1,0 +1,925 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet"><link href="https://app-companion-430619.appspot.com/static/cdn/fonts/v1/material-symbols-outlined.css" data-stitch-cdn-href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://app-companion-430619.appspot.com/static/cdn/fonts/v1/material-symbols-outlined.css" data-stitch-cdn-href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://app-companion-430619.appspot.com/static/cdn/fonts/v1/material-symbols-outlined.css" data-stitch-cdn-href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://app-companion-430619.appspot.com/static/cdn/v1/tailwindcss-play.js" data-stitch-cdn-src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"inverse-on-surface":"#eff1f3","surface-container-lowest":"#ffffff","surface":"#f7f9fb","on-background":"#191c1e","surface-dim":"#d8dadc","on-tertiary":"#ffffff","surface-container-highest":"#e0e3e5","on-tertiary-fixed-variant":"#00504a","brand-accent-red":"#DC2626","on-secondary-fixed":"#001b3e","on-primary-container":"#77849c","surface-variant":"#e0e3e5","tertiary-fixed-dim":"#80d5cb","tertiary-container":"#00201d","primary":"#000000","outline":"#75777d","error-container":"#ffdad6","primary-container":"#0e1c2f","on-secondary":"#ffffff","surface-container":"#eceef0","on-tertiary-container":"#389189","surface-container-low":"#f2f4f6","solar-cyan":"#0284C7","inverse-primary":"#bac7e1","on-primary-fixed":"#0e1c2f","on-surface-variant":"#44474c","background":"#f7f9fb","tertiary-fixed":"#9cf2e8","surface-warm":"#FAF9F6","border-subtle":"#E2E8F0","on-error":"#ffffff","navy-secondary":"#1E3E62","inverse-surface":"#2d3133","on-error-container":"#93000a","on-secondary-fixed-variant":"#00458e","eco-green":"#16A34A","on-tertiary-fixed":"#00201d","on-secondary-container":"#002d61","on-surface":"#191c1e","outline-variant":"#c5c6cd","primary-fixed":"#d6e3fe","secondary-fixed-dim":"#aac7ff","surface-tint":"#525f75","surface-container-high":"#e6e8ea","tertiary":"#000000","error":"#ba1a1a","warm-gold":"#D97706","secondary":"#005cba","secondary-fixed":"#d7e3ff","secondary-container":"#5095fe","surface-bright":"#f7f9fb","on-primary-fixed-variant":"#3a475c","on-primary":"#ffffff","surface-card":"#FFFFFF","primary-fixed-dim":"#bac7e1"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"margin":"2rem","space-sm":"0.5rem","gutter":"1.5rem","gutter-mobile":"1rem","space-xl":"2.5rem","space-xs":"0.25rem","space-2xl":"4rem","space-3xl":"6rem","space-lg":"1.5rem","space-md":"1rem","margin-mobile":"1rem"},"fontFamily":{"headline-lg-mobile":["Plus Jakarta Sans"],"label-lg":["Inter"],"headline-xl-mobile":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"],"title-md":["Plus Jakarta Sans"],"display":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"label-md":["Inter"],"body-sm":["Plus Jakarta Sans"],"display-mobile":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"label-sm":["Inter"],"headline-md":["Plus Jakarta Sans"]},"fontSize":{"headline-lg-mobile":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"700"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"headline-xl-mobile":["30px",{"lineHeight":"38px","letterSpacing":"-0.015em","fontWeight":"700"}],"headline-xl":["40px",{"lineHeight":"48px","letterSpacing":"-0.02em","fontWeight":"700"}],"title-md":["18px",{"lineHeight":"26px","fontWeight":"600"}],"display":["56px",{"lineHeight":"64px","letterSpacing":"-0.03em","fontWeight":"800"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"600"}],"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"600"}],"body-sm":["14px",{"lineHeight":"20px","fontWeight":"400"}],"display-mobile":["38px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"800"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.015em","fontWeight":"700"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"500"}],"headline-md":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"600"}]}}}}</script><style>
+      body::-webkit-scrollbar { display: none; }
+      html { scrollbar-width: none; }
+      body { -ms-overflow-style: none; min-height: auto !important; }
+    </style></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 w-full z-50 shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="bg-primary-container text-on-primary border-b border-navy-secondary/30"><div class="max-w-7xl mx-auto px-margin flex items-center justify-between h-10 font-label-sm text-label-sm"><div class="flex items-center gap-space-lg"><span class="flex items-center gap-space-xs text-on-primary/90"><span class="material-symbols-outlined text-[16px] text-solar-cyan">solar_power</span><span class="hidden sm:inline">Empowering Homes &amp; Businesses with Solar</span></span><span class="hidden md:inline-flex items-center gap-space-xs px-2 py-0.5 rounded-full bg-eco-green/15 text-eco-green font-label-sm"><span class="w-1.5 h-1.5 rounded-full bg-eco-green animate-pulse"></span>Solar project assistance</span></div><div class="flex items-center gap-space-lg"><span class="flex items-center gap-space-xs text-on-primary/90 font-label-sm"><span class="material-symbols-outlined text-[15px] text-solar-cyan">support_agent</span><span>Assistance &amp; Coordination Desk | Mon - Sat Support</span></span></div></div></div><div class="bg-surface-container-lowest/95 backdrop-blur-xl border-b border-border-subtle"><div class="max-w-7xl mx-auto px-margin h-20 flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><a class="flex items-center gap-space-sm group" data-path="home" href="/"><img alt="MB Associates Logo" class="h-11 w-auto object-contain" src="/mb-associates-logo.png"><div class="flex flex-col"><span class="font-headline-md text-title-md font-bold tracking-tight text-on-surface group-hover:text-secondary transition-colors">MB ASSOCIATES</span><span class="font-label-sm text-label-sm text-on-surface-variant font-medium tracking-wide uppercase">Solar Energy EPC</span></div></a></div><nav class="hidden xl:flex items-center gap-1 font-label-lg text-label-lg" data-active-classes="text-secondary font-bold bg-secondary-fixed/30 rounded-lg"><a class="px-3 py-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="home" href="/">Home</a><a class="px-3 py-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="about-us" href="/about">About Us</a><div class="relative group"><button class="flex items-center gap-1 px-3 py-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container rounded-lg transition-all" type="button"><span class="font-label-lg text-label-lg">Solar Solutions</span><span class="material-symbols-outlined text-[18px] transition-transform duration-200 group-hover:rotate-180">expand_more</span></button><div class="absolute left-0 top-full hidden group-hover:block w-64 pt-2 z-50"><div class="bg-surface-card rounded-xl border border-border-subtle shadow-[0_10px_25px_-5px_rgba(11,25,44,0.08)] p-2 flex flex-col gap-1"><a class="px-3 py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface flex items-center justify-between text-body-sm font-body-sm transition-colors" data-path="residential-solar" href="#"><span class="font-medium">Residential Rooftop</span><span class="text-[10px] px-1.5 py-0.5 rounded bg-eco-green/10 text-eco-green font-semibold">Subsidy</span></a><a class="px-3 py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface text-body-sm font-body-sm transition-colors font-medium" data-path="commercial-solar" href="#">Commercial Rooftop</a><a class="px-3 py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface text-body-sm font-body-sm transition-colors font-medium" data-path="industrial-solar" href="#">Industrial EPC Solar</a><a class="px-3 py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface text-body-sm font-body-sm transition-colors font-medium" data-path="off-grid-solar" href="#">Off-Grid &amp; Hybrid Storage</a></div></div></div><a class="px-3 py-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="subsidy-and-finance" href="/subsidy-finance">Subsidy &amp; Finance</a><a class="px-3 py-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="projects" href="#">Projects</a><a class="px-3 py-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all flex items-center gap-1.5" href="/solar-calculator" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px] text-warm-gold">calculate</span><span>Solar Calculator</span></a><a class="px-3 py-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="contact-us" href="/contact">Contact Us</a></nav><div class="flex items-center gap-space-sm"><a class="hidden sm:inline-flex items-center gap-1.5 px-3 py-2 rounded-lg border border-border-subtle bg-surface-card hover:bg-surface-container hover:border-secondary text-primary-container font-label-md text-label-md transition-all" href="#enquiry-form"><span class="material-symbols-outlined text-[17px] text-secondary">support_agent</span><span>Assistance Desk</span></a><a class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-brand-accent-red hover:bg-red-700 text-on-error font-label-lg text-label-lg shadow-sm hover:shadow-md transition-all" href="#enquiry-form"><span class="material-symbols-outlined text-[18px]">electric_bolt</span><span>Get Free Quote</span></a><div class="flex items-center pl-2 border-l border-border-subtle"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-border-subtle" src="https://lh3.googleusercontent.com/aida/ALJJyrACO2aXbN6KiAWpa6sFcZb7cTezzzJPaxkfE3z6-Hrtf1etMX5Hr8xlyPR2Nu9xILWrXpQOE3lu7yNbTjaC8pnrQhmOlXnw6A6o4zrvSfH3LH6NkzYJZTCZxEod_27Pqp4cCV5_eKEcHHUE93q5hHWo2J9kVKKG0RogmWx3Ia5_7hU9RDeGyej4o5J51lA_DwmtnCxfHOHQKdv7Gnbl2inD9vE4d0odaWU-4WfnSpU0ZzWM6A9BgPAxo7k"></div></div></div></div></header><main class="w-full pt-[120px] bg-surface min-h-[calc(100vh-120px)]"><div class="flex flex-col w-full">
+<!-- Top Utility Sub-Header & Breadcrumb Bar -->
+<section class="w-full bg-surface-container-low py-space-md">
+<div class="max-w-7xl mx-auto px-margin flex flex-col md:flex-row md:items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-xs font-label-sm text-label-sm text-on-surface-variant">
+<a class="hover:text-secondary transition-colors" href="#">Home</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-on-surface font-semibold">Solar Solutions</span>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-secondary font-medium">Engineered Rooftop Systems</span>
+</div>
+<div class="flex items-center gap-space-md font-label-sm text-label-sm">
+<span class="flex items-center gap-1 text-eco-green">
+<span class="w-2 h-2 rounded-full bg-eco-green animate-ping"></span>
+          ALMM Tier-1 Equipment Only
+        </span>
+<span class="text-outline-variant">|</span>
+<span class="text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-warm-gold">verified</span>
+          IEC 61215 / BIS Certified
+        </span>
+</div>
+</div>
+</section>
+<!-- Editorial Section Title (No duplicate header/h1 clash) -->
+<section class="w-full pt-space-xl pb-space-lg">
+<div class="max-w-7xl mx-auto px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-end">
+<div class="lg:col-span-8 flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs"><span class="px-2.5 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm tracking-wide uppercase">Solar Project Coordination</span><span class="font-label-sm text-label-sm text-on-surface-variant">Verified Partner Network</span></div>
+<h2 class="font-display text-display text-primary tracking-tight">
+            Engineered Rooftop Systems Tailored for Homes, Communities &amp; Commercial Enterprises.
+          </h2>
+</div>
+<div class="lg:col-span-4 flex flex-col gap-space-sm pb-1">
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">MB Associates coordinates solar projects with nearby verified vendors and assists with loan applications, subsidy guidance, documentation, installation coordination and post-installation support.</p>
+<div class="flex items-center gap-space-sm font-label-md text-label-md text-secondary"><span class="material-symbols-outlined text-[18px]">verified</span><span>Empowering rooftop owners with end-to-end assistance, vetting, and coordination</span></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Solution Selector Navigation Bar (Tabs) -->
+<section class="w-full sticky top-[120px] z-30 bg-surface/90 backdrop-blur-md py-space-sm">
+<div class="max-w-7xl mx-auto px-margin">
+<div class="bg-surface-container-highest p-1.5 rounded-xl shadow-sm flex items-center justify-between overflow-x-auto gap-2">
+<button class="solution-tab-btn flex-1 min-w-[170px] py-2.5 px-3 rounded-lg font-label-lg text-label-lg flex items-center justify-center gap-2 transition-all bg-surface-card text-secondary shadow-sm font-bold" id="tab-btn-residential" onclick="switchTab('residential')">
+<span class="material-symbols-outlined text-[18px]">home</span>
+<span>Residential</span>
+</button>
+<button class="solution-tab-btn flex-1 min-w-[170px] py-2.5 px-3 rounded-lg font-label-lg text-label-lg flex items-center justify-center gap-2 transition-all text-on-surface-variant hover:text-on-surface" id="tab-btn-housing" onclick="switchTab('housing')">
+<span class="material-symbols-outlined text-[18px]">apartment</span>
+<span>RWAs &amp; Societies</span>
+</button>
+<button class="solution-tab-btn flex-1 min-w-[170px] py-2.5 px-3 rounded-lg font-label-lg text-label-lg flex items-center justify-center gap-2 transition-all text-on-surface-variant hover:text-on-surface" id="tab-btn-commercial" onclick="switchTab('commercial')">
+<span class="material-symbols-outlined text-[18px]">domain</span>
+<span>Commercial</span>
+</button>
+<button class="solution-tab-btn flex-1 min-w-[170px] py-2.5 px-3 rounded-lg font-label-lg text-label-lg flex items-center justify-center gap-2 transition-all text-on-surface-variant hover:text-on-surface" id="tab-btn-industrial" onclick="switchTab('industrial')">
+<span class="material-symbols-outlined text-[18px]">factory</span>
+<span>Industrial EPC</span>
+</button>
+<button class="solution-tab-btn flex-1 min-w-[170px] py-2.5 px-3 rounded-lg font-label-lg text-label-lg flex items-center justify-center gap-2 transition-all text-on-surface-variant hover:text-on-surface" id="tab-btn-om" onclick="switchTab('om')">
+<span class="material-symbols-outlined text-[18px]">shield</span>
+<span>Solar O&amp;M</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Deep-Dive Interactive Solution Viewports -->
+<section class="w-full py-space-xl">
+<div class="max-w-7xl mx-auto px-margin">
+<!-- TAB 1: RESIDENTIAL ROOFTOP -->
+<div class="solution-tab-panel flex flex-col gap-space-xl" id="tab-panel-residential">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-stretch">
+<div class="lg:col-span-7 bg-surface-card rounded-xl p-space-xl shadow-md flex flex-col justify-between">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded-full bg-eco-green/10 text-eco-green font-label-md text-label-md flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-eco-green"></span>
+                  PM Surya Ghar Scheme Ready
+                </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Capacity: 1 kWp to 15 kWp</span>
+</div>
+<h3 class="font-headline-xl text-headline-xl text-primary font-bold">
+                Residential Rooftop Solar for Independent Homes &amp; Villas
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Engineered for elevated aesthetics and uncompromising energy autonomy. MB Associates designs customized on-grid rooftop arrays with bifacial mono PERC modules, rust-proof hot-dip galvanized mounting structures, and direct integration with your state's net metering grid.
+              </p>
+<!-- Subsidy Highlight Callout Box -->
+<div class="bg-surface-container-low p-space-md rounded-xl flex items-start gap-space-md">
+<div class="p-2.5 rounded-lg bg-warm-gold/15 text-warm-gold flex-shrink-0">
+<span class="material-symbols-outlined text-[24px]">account_balance_wallet</span>
+</div>
+<div class="flex flex-col gap-0.5">
+<span class="font-title-md text-title-md text-on-surface font-bold">Direct MNRE Subsidy up to ₹78,000</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                    Eligible for instantaneous direct bank transfer subsidy under the National Rooftop Portal. We manage 100% of the feasibility approvals, DISCOM inspection, and net-meter commissioning.
+                  </p>
+</div>
+</div>
+<!-- Feature Bullets -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md pt-space-xs">
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">check_circle</span>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">Elevated Superstructure</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Zero loss of terrace usability; elevated walk-under pergolas.</span>
+</div>
+</div>
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">check_circle</span>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">App-Based Telemetry</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Real-time smartphone generation and DISCOM export stats.</span>
+</div>
+</div>
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">check_circle</span>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">BIS Dual-MPPT Inverters</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">High-yield conversion with arc-fault protection (AFCI).</span>
+</div>
+</div>
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">check_circle</span>
+<div class="flex flex-col"><span class="font-label-lg text-label-lg text-on-surface">25-Year Linear Warranty</span><span class="font-body-sm text-body-sm text-on-surface-variant">Manufacturer-backed 84.8% performance threshold at year 25.</span></div>
+</div>
+</div>
+</div>
+<!-- Action Strip -->
+<div class="pt-space-lg flex flex-wrap items-center gap-space-md">
+<a class="px-5 py-2.5 rounded-lg bg-brand-accent-red hover:bg-red-700 text-on-error font-label-lg text-label-lg flex items-center gap-2 transition-all shadow-sm" href="#enquiry-form">
+<span class="material-symbols-outlined text-[18px]">solar_power</span>
+<span>Get Residential Quote</span>
+</a>
+<a class="px-5 py-2.5 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-lg text-label-lg flex items-center gap-2 transition-all" href="/solar-calculator" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px] text-warm-gold">calculate</span>
+<span>Calculate Rooftop Units</span>
+</a>
+</div>
+</div>
+<!-- Residential Visual & Live Telemetry Mock -->
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<div class="relative w-full h-80 rounded-xl overflow-hidden shadow-md">
+<img class="w-full h-full object-cover" data-alt="A modern luxury Indian residential villa with sleek elevated solar panels mounted cleanly on a spacious concrete terrace, surrounded by lush green foliage under bright clear daylight with reflections on monocrystalline glass." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzzjFMpUu3Ay8C84q2W6RA-Uw4n1C1GV0Wu7075GZ9Gcr2YYAwU57PpTaoTpjfoEyh0BmHx6cTAuaWNGUwF9j38-It7GvzQiGvHLIZ5QjKTd1Ebsg_W3rgaAlVIwJNbY08OCcl-vSYsPNPlqO6ltqLdBpKornIhwX4zmL1NgIQXx7ceNZGEFfR1aDf5e8Zfs3bY_h1DaKvaiHNu-4UWRm0CxmoaHvbdMHb2iwggCc">
+<div class="absolute top-3 right-3 px-3 py-1 rounded-full bg-primary-container/85 backdrop-blur-md text-on-primary font-label-sm text-label-sm flex items-center gap-1.5 shadow-sm">
+<span class="w-2 h-2 rounded-full bg-eco-green animate-pulse"></span>
+                Active 8.2 kWp Villa Array
+              </div>
+<div class="absolute bottom-3 left-3 right-3 bg-surface-card/95 backdrop-blur-md p-3 rounded-lg flex items-center justify-between text-on-surface">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Typical Annual Savings</span>
+<span class="font-headline-sm text-headline-sm font-bold text-eco-green">₹96,000 / yr</span>
+</div>
+<div class="text-right">
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Payback Period</span>
+<span class="font-title-md text-title-md font-bold text-primary">3.2 - 3.8 Years</span>
+</div>
+</div>
+</div>
+<!-- In-depth Spec Micro Card -->
+<div class="bg-surface-card rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Quick Specification</span>
+<div class="grid grid-cols-3 gap-2">
+<div class="bg-surface-container-low p-2.5 rounded-lg flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Recommended</span>
+<span class="font-headline-sm text-headline-sm font-bold text-primary">3 kW - 10 kW</span>
+</div>
+<div class="bg-surface-container-low p-2.5 rounded-lg flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Area / kW</span>
+<span class="font-headline-sm text-headline-sm font-bold text-primary">~80-100 Sq.Ft</span>
+</div>
+<div class="bg-surface-container-low p-2.5 rounded-lg flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Daily Gen</span>
+<span class="font-headline-sm text-headline-sm font-bold text-secondary">4 - 4.5 Units</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- TAB 2: HOUSING SOCIETIES & RWAs -->
+<div class="solution-tab-panel hidden flex-col gap-space-xl" id="tab-panel-housing">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-stretch">
+<div class="lg:col-span-7 bg-surface-card rounded-xl p-space-xl shadow-md flex flex-col justify-between">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded-full bg-secondary/10 text-secondary font-label-md text-label-md flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px]">domain_add</span>
+                  RWA Common Infrastructure
+                </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Capacity: 20 kWp to 250 kWp+</span>
+</div>
+<h3 class="font-headline-xl text-headline-xl text-primary font-bold">
+                Housing Societies &amp; RWAs Shared Rooftop Solar
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Slashing common amenity electricity bills to zero. Multi-tower cooperative societies spend heavily on water lifting pumps, basement ventilation, lifts, and perimeter lighting. MB Associates delivers unified high-capacity solar setups tailored to society governance.
+              </p>
+<!-- Metrics Callout -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm">
+<div class="bg-surface-container-low p-space-sm rounded-xl">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Common Area Cost</span>
+<span class="font-headline-md text-headline-md font-bold text-eco-green block mt-1">-85% to -100%</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Massive RWA savings</span>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-xl">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Group Net Metering</span>
+<span class="font-headline-md text-headline-md font-bold text-primary block mt-1">Virtual Credit</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">State DISCOM aligned</span>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-xl">
+<span class="font-label-sm text-label-sm text-on-surface-variant">EV Integration</span>
+<span class="font-headline-md text-headline-md font-bold text-secondary block mt-1">Solar EV Hub</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Basement charging sync</span>
+</div>
+</div>
+<!-- Feature Bullets -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md pt-space-xs">
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">check_circle</span>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">Lift &amp; Hydro-Pneumatic Sync</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Balanced harmonic suppression for motor loads.</span>
+</div>
+</div>
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">check_circle</span>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">General Body Presentation Support</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Full technical presentations provided for AGM approval.</span>
+</div>
+</div>
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">check_circle</span>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">Society Subsidy Facilitation</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">₹18,000 per kW up to 500 kW under PM Surya Ghar.</span>
+</div>
+</div>
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">check_circle</span>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">Multi-Rooftop Interconnection</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Combining several clubhouses and tower terraces seamlessly.</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Action Strip -->
+<div class="pt-space-lg flex flex-wrap items-center gap-space-md">
+<a class="px-5 py-2.5 rounded-lg bg-secondary hover:bg-solar-cyan text-on-secondary font-label-lg text-label-lg flex items-center gap-2 transition-all shadow-sm" href="#enquiry-form">
+<span class="material-symbols-outlined text-[18px]">handshake</span>
+<span>Request Society Site Feasibility</span>
+</a>
+<a class="px-5 py-2.5 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-lg text-label-lg flex items-center gap-2 transition-all" href="tel:+919876543210">
+<span class="material-symbols-outlined text-[18px]">support_agent</span>
+<span>Talk to RWA Solar Specialist</span>
+</a>
+</div>
+</div>
+<!-- Housing Visual -->
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<div class="relative w-full h-80 rounded-xl overflow-hidden shadow-md">
+<img class="w-full h-full object-cover" data-alt="Expansive rooftop arrays spanning across interconnected high-rise residential apartment towers in an upscale urban township, clean industrial structures facing the horizon under a sunny blue sky." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQUfqHIwVIIAphdRyzVDMZDHH4EC0TNqUm-czfDoebMPLtcp8a3TbrJGiXdJMKagjZGlvpFPX9nf5ZvhBy7MDjvuZhkoQ9kgz4Jq-CugIsDBEwWjSPx68onVuPuw9k6pwhEWnuiC7hRWwOWgo0szEFKq5J7ETtJZ4SODoE09W8dztNRU4w8XRQwnXuhqphz8_9CYD0fmco6lvsIUiM2P4kW8OBYNbfJ7StrwFiEZE">
+<div class="absolute top-3 left-3 px-3 py-1 rounded-full bg-primary-container/85 backdrop-blur-md text-on-primary font-label-sm text-label-sm flex items-center gap-1.5 shadow-sm">
+<span class="material-symbols-outlined text-[15px] text-solar-cyan">apartment</span>
+                65 kWp High-Rise Society Array
+              </div>
+</div>
+<!-- RWA Benefit Highlight Box -->
+<div class="bg-primary-container text-on-primary rounded-xl p-space-md shadow-md flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md font-semibold text-on-primary">Monthly Maintenance Relief</span>
+<span class="material-symbols-outlined text-warm-gold text-[22px]">trending_down</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-primary-container">
+                "Our society reduced monthly maintenance levies by ₹1.25 per square foot within 90 days of commissioning our rooftop setup with MB Associates."
+              </p>
+<div class="flex items-center gap-2 pt-1 font-label-sm text-label-sm text-solar-cyan">
+<span class="material-symbols-outlined text-[16px]">verified_user</span>
+<span>Secretary, Greenfield Towers RWA (120 Families)</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- TAB 3: COMMERCIAL & INSTITUTIONAL -->
+<div class="solution-tab-panel hidden flex-col gap-space-xl" id="tab-panel-commercial">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-stretch">
+<div class="lg:col-span-7 bg-surface-card rounded-xl p-space-xl shadow-md flex flex-col justify-between">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded-full bg-solar-cyan/15 text-solar-cyan font-label-md text-label-md flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px]">business_center</span>
+                  Commercial &amp; Institutional
+                </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Capacity: 25 kWp to 500 kWp</span>
+</div>
+<h3 class="font-headline-xl text-headline-xl text-primary font-bold">
+                High-Return Solar for Schools, Hospitals &amp; Corporate Hubs
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Commercial institutions suffer peak commercial grid tariffs of ₹8.50 - ₹12.50 per unit during daytime operating hours. By generating captive solar energy when your air conditioning, diagnostic machines, and computer banks are most active, your bottom line is insulated from grid escalation.
+              </p>
+<!-- Financial & Tax ROI highlight -->
+<div class="bg-surface-container-low p-space-md rounded-xl flex items-start gap-space-md">
+<div class="p-2.5 rounded-lg bg-eco-green/15 text-eco-green flex-shrink-0">
+<span class="material-symbols-outlined text-[24px]">percent</span>
+</div>
+<div class="flex flex-col gap-0.5">
+<span class="font-title-md text-title-md text-on-surface font-bold">40% Accelerated Depreciation (AD)</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                    Under Section 32 of the Income Tax Act, commercial enterprises can claim 40% depreciation in the first year of operation, generating massive tax savings and compressing project payback to under 30 months.
+                  </p>
+</div>
+</div>
+<!-- Feature Bullets -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md pt-space-xs">
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">check_circle</span>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">Zero Operational Disruption</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Engineered staging to prevent disruption during business hours.</span>
+</div>
+</div>
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">check_circle</span>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">Diesel Generator Sync (DG-PV)</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Intelligent controllers that modulate solar output during grid outages.</span>
+</div>
+</div>
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">check_circle</span>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">Fire-Safe Walkway Integration</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Compliant with NBC 2016 safety and maintenance clear-spans.</span>
+</div>
+</div>
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">check_circle</span>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">ESG &amp; Green Building Points</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Direct credit qualification for IGBC, GRIHA, and LEED accreditations.</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Action Strip -->
+<div class="pt-space-lg flex flex-wrap items-center gap-space-md">
+<a class="px-5 py-2.5 rounded-lg bg-brand-accent-red hover:bg-red-700 text-on-error font-label-lg text-label-lg flex items-center gap-2 transition-all shadow-sm" href="#enquiry-form">
+<span class="material-symbols-outlined text-[18px]">calculate</span>
+<span>Get Commercial ROI Analysis</span>
+</a>
+<a class="px-5 py-2.5 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-lg text-label-lg flex items-center gap-2 transition-all" href="#">
+<span class="material-symbols-outlined text-[18px]">download</span>
+<span>Download Spec Sheet</span>
+</a>
+</div>
+</div>
+<!-- Commercial Visual -->
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<div class="relative w-full h-80 rounded-xl overflow-hidden shadow-md">
+<img class="w-full h-full object-cover" data-alt="Modern corporate glass office building with a sprawling flat concrete rooftop arrayed with dark blue solar panels neatly arranged with aluminum cable trays and inverter stations, sunny reflections on blue sky." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWU4FisftbmZT5pRf3lwYiQ3Pol6MXlwnCvwiQGfKBt30C96htEos-fRLS4eTmleWk0fVqpcCBGeL_CFZzM97iXwBFtI75-eoCb_f8dVrT7CZG7WxUiaTGiqszeUmnjeN_umtnSLK6QC81uNsh3vHWiVp9uJ7PW5v0jFqDdcWsVxSF8IRCfhzQV89rjQQupJhhE3B_PEax1d6DvRgxYJgKeYEFBJmtn34pKMTQUXk">
+<div class="absolute bottom-3 left-3 right-3 bg-primary-container/90 backdrop-blur-md p-3.5 rounded-lg text-on-primary">
+<span class="font-label-sm text-label-sm text-solar-cyan uppercase font-bold">Representative System Profile</span>
+<p class="font-title-md text-title-md font-bold text-on-primary mt-0.5">Multi-Specialty Healthcare Facility</p>
+<div class="flex items-center justify-between text-on-primary-container text-body-sm font-body-sm mt-1">
+<span>140 kWp Grid-Tied System Specification</span>
+<span class="text-eco-green font-semibold">Indicative Operational Cost Sizing</span>
+</div>
+</div>
+</div>
+<!-- Fast ROI Readout -->
+<div class="bg-surface-card rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Commercial Economics</span>
+<div class="grid grid-cols-2 gap-2">
+<div class="bg-surface-container-low p-2.5 rounded-lg">
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Internal Rate of Return (IRR)</span>
+<span class="font-headline-sm text-headline-sm font-bold text-eco-green">26% - 31%</span>
+</div>
+<div class="bg-surface-container-low p-2.5 rounded-lg">
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Levelized Cost of Electricity</span>
+<span class="font-headline-sm text-headline-sm font-bold text-primary">₹2.85 / Unit</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- TAB 4: INDUSTRIAL ROOFTOP & SHED MOUNTS -->
+<div class="solution-tab-panel hidden flex-col gap-space-xl" id="tab-panel-industrial">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-stretch">
+<div class="lg:col-span-7 bg-surface-card rounded-xl p-space-xl shadow-md flex flex-col justify-between">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded-full bg-navy-secondary/10 text-navy-secondary font-label-md text-label-md flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px]">precision_manufacturing</span>
+                  Mega-Watt Heavy Industrial EPC
+                </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Capacity: 100 kWp to 5,000 kWp+</span>
+</div>
+<h3 class="font-headline-xl text-headline-xl text-primary font-bold">
+                Industrial Rooftop &amp; Non-Penetrating Shed Mounts
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Industrial steel shed roofs demand zero leakages, wind-load calculations up to 180 km/h, and high-tension grid synchronization. MB Associates utilizes custom-extruded aluminum seam clamps that attach directly to trapezoidal and standing-seam profiles with zero puncture holes.
+              </p>
+<!-- Industrial Engineering highlights -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<div class="bg-surface-container-low p-space-sm rounded-xl">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Sheet Clamping</span>
+<span class="font-title-md text-title-md font-bold text-primary block mt-1">100% Non-Penetrating</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">EPDM rubber insulated; zero water seepages.</span>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-xl">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Grid Synchronisation</span>
+<span class="font-title-md text-title-md font-bold text-primary block mt-1">11 kV / 33 kV HT Lines</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Dedicated step-up transformer substations.</span>
+</div>
+</div>
+<!-- Feature Bullets -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md pt-space-xs">
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">check_circle</span>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">STAAD.Pro Roof Audit</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Computational truss load validation before layout sign-off.</span>
+</div>
+</div>
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">check_circle</span>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">Zero Export Protection</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Ensures seamless operation during open-access or DISCOM bans.</span>
+</div>
+</div>
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">check_circle</span>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">CAPEX &amp; RESCO Models</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Flexible upfront ownership or zero-investment PPA tariff models.</span>
+</div>
+</div>
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">check_circle</span>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">SCADA / PLC Gateway</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Enterprise plant telemetry integrated with industrial ERP.</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Action Strip -->
+<div class="pt-space-lg flex flex-wrap items-center gap-space-md">
+<a class="px-5 py-2.5 rounded-lg bg-primary hover:bg-navy-secondary text-on-primary font-label-lg text-label-lg flex items-center gap-2 transition-all shadow-sm" href="#enquiry-form">
+<span class="material-symbols-outlined text-[18px]">engineering</span>
+<span>Request Industrial Site Assessment</span>
+</a>
+<a class="px-5 py-2.5 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-lg text-label-lg flex items-center gap-2 transition-all" href="tel:+919876543210">
+<span class="material-symbols-outlined text-[18px]">call</span>
+<span>Speak with Chief EPC Engineer</span>
+</a>
+</div>
+</div>
+<!-- Industrial Visual -->
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<div class="relative w-full h-80 rounded-xl overflow-hidden shadow-md">
+<img class="w-full h-full object-cover" data-alt="High angle shot of a massive industrial warehouse complex with corrugated metal roofs covered by thousands of premium solar panels under bright sun with transformer station visible nearby." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBqed-fvLT8NQ0ki-KteymYiO2M-Q67fL7dDiIC89I0UdSHc2vueuEHZ2e3M6VWhtTuORFBBSVhtVAii5O5P3vfuncZYoicBLTfB5j0ZCkGy8lLwTbHSpwEuBGohIZUP-2EY5bGSHucFajBY1GFah-y9P9CvHBZYpeMf5-1Ee55IlZMelS8bBc88Zo-D0Z38D_lnYhGnBU4ZsAYKjCRTRhDtuQ1phOKNr63bj1r1M">
+<div class="absolute top-3 right-3 px-3 py-1 rounded-full bg-surface-card/90 backdrop-blur-md text-on-surface font-label-sm text-label-sm flex items-center gap-1.5 shadow-sm">
+<span class="w-2 h-2 rounded-full bg-eco-green"></span>
+                Representative Industrial Facility Array
+              </div>
+</div>
+<!-- Engineering Metric Box -->
+<div class="bg-surface-card rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Industrial Structural Compliance</span>
+<div class="grid grid-cols-2 gap-2">
+<div class="bg-surface-container-low p-2.5 rounded-lg">
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Wind Load Rating</span>
+<span class="font-headline-sm text-headline-sm font-bold text-primary">Up to 180 km/h</span>
+</div>
+<div class="bg-surface-container-low p-2.5 rounded-lg">
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Transformer Sync</span>
+<span class="font-headline-sm text-headline-sm font-bold text-solar-cyan">11kV / 33kV Yard</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- TAB 5: SOLAR O&M -->
+<div class="solution-tab-panel hidden flex-col gap-space-xl" id="tab-panel-om">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-stretch">
+<div class="lg:col-span-7 bg-surface-card rounded-xl p-space-xl shadow-md flex flex-col justify-between">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded-full bg-eco-green/10 text-eco-green font-label-md text-label-md flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px]">health_and_safety</span>
+                  Lifecycle Reliability Assurance
+                </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Uptime Guarantee: 99.2%</span>
+</div>
+<h3 class="font-headline-xl text-headline-xl text-primary font-bold">
+                Solar Operations &amp; Maintenance (O&amp;M)
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Solar panels lose between 12% and 28% efficiency due to particulate soiling, hot-spot cell micro-fractures, and inverter derating. MB Associates provides institutional-grade O&amp;M plans backed by thermal infrared drone sweeps and preventive electrical diagnostic testing.
+              </p>
+<!-- 4 Diagnostic Highlights -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<div class="bg-surface-container-low p-space-sm rounded-xl flex items-start gap-3">
+<span class="material-symbols-outlined text-solar-cyan text-[24px]">flight</span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md font-bold text-on-surface">Thermal Drone Audits</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">FLIR radiometric scans detect diode failures and hot spots.</span>
+</div>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-xl flex items-start gap-3">
+<span class="material-symbols-outlined text-eco-green text-[24px]">water_drop</span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md font-bold text-on-surface">Treated Water Cleaning</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Demineralized soft water wash with anti-static soft bristles.</span>
+</div>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-xl flex items-start gap-3">
+<span class="material-symbols-outlined text-warm-gold text-[24px]">electric_meter</span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md font-bold text-on-surface">I-V Curve Tracing</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Electrical health diagnostics and insulation resistance tests.</span>
+</div>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-xl flex items-start gap-3">
+<span class="material-symbols-outlined text-brand-accent-red text-[24px]">hub</span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md font-bold text-on-surface">24/7 NOC Monitoring</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Instant alarm triage with 4-hour SLA on critical breakdowns.</span>
+</div>
+</div>
+</div>
+<!-- Extra points -->
+<div class="flex items-center gap-space-md pt-2 text-on-surface-variant font-label-md text-label-md">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-eco-green">task_alt</span>
+                  Semi-Annual Torque Retightening
+                </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-eco-green">task_alt</span>
+                  Degradation Benchmarking
+                </span>
+</div>
+</div>
+<!-- Action Strip -->
+<div class="pt-space-lg flex flex-wrap items-center gap-space-md">
+<a class="px-5 py-2.5 rounded-lg bg-eco-green hover:bg-green-700 text-on-error font-label-lg text-label-lg flex items-center gap-2 transition-all shadow-sm" href="#enquiry-form">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span>Enquire About O&amp;M Contracts</span>
+</a>
+<a class="px-5 py-2.5 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-lg text-label-lg flex items-center gap-2 transition-all" href="tel:+919876543210">
+<span class="material-symbols-outlined text-[18px]">build</span>
+<span>Request Plant Health Check</span>
+</a>
+</div>
+</div>
+<!-- OM Visual -->
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<div class="relative w-full h-80 rounded-xl overflow-hidden shadow-md">
+<img class="w-full h-full object-cover" data-alt="Solar technician in high-visibility safety gear inspecting an industrial solar installation using a specialized digital handheld diagnostic meter with drone hovering in background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAH6iMlVvh9V5zi7bDyDDSGXo1cCwhaFRx3DtuNn_h0fY6YSXw1rNSv4O-S7JpFuBGBfME4rIlrSDhiF5gWG73nO4y26FqGr131sDpSIZoh3-LLaE1UfvQJWZBLEibHFutnHdP2d5CNb9aTgjwHZXs42rWblyoSbXfLcAAaqSZgH3JoE9tj2CAob4NNgSav3ZQOV0_rSKSNoKJuR6pqBnX4wtsmMVVnJxmyuXKM4GU">
+<div class="absolute bottom-3 left-3 right-3 bg-primary-container/90 backdrop-blur-md p-3.5 rounded-lg text-on-primary"><span class="font-label-sm text-label-sm text-warm-gold uppercase font-bold">Standard SLA</span><p class="font-title-md text-title-md font-bold text-on-primary mt-0.5">High Operational Uptime Support</p><p class="font-body-sm text-body-sm text-on-primary-container mt-1">Proactive maintenance coordination and diagnostic sweeps under Enterprise Support plans.</p></div>
+</div>
+<!-- O&M Micro telemetry -->
+<div class="bg-surface-card rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Performance Recovery Index</span>
+<div class="flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Post-Wash Generation Gain</span>
+<span class="font-headline-sm text-headline-sm font-bold text-eco-green block">+14.2%</span>
+</div>
+<div class="text-right">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Preventive Frequency</span>
+<span class="font-headline-sm text-headline-sm font-bold text-primary">Bi-Monthly</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Technical Specifications Comparison Table -->
+<section class="w-full py-space-2xl bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-margin flex flex-col gap-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-md text-label-md text-secondary uppercase font-bold tracking-wider">Engineering Architecture</span>
+<h3 class="font-headline-xl text-headline-xl text-primary font-bold">
+            Technical Specifications by Installation Class
+          </h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Every installation conforms to MNRE standards, state DISCOM grid-connection rules, and IEC safety standards.
+        </p>
+</div>
+<!-- Comprehensive Data Table Container (No borders) -->
+<div class="w-full overflow-x-auto rounded-xl shadow-md bg-surface-card">
+<table class="w-full text-left font-body-sm text-body-sm">
+<thead class="bg-surface-container-high text-on-surface font-label-md text-label-md uppercase tracking-wider">
+<tr>
+<th class="py-4 px-5" scope="col">System Segment</th>
+<th class="py-4 px-5" scope="col">Scale Range</th>
+<th class="py-4 px-5" scope="col">Roof Footprint / kW</th>
+<th class="py-4 px-5" scope="col">Avg. Daily Output</th>
+<th class="py-4 px-5" scope="col">Inverter Architecture</th>
+<th class="py-4 px-5" scope="col">Warranty Envelope</th>
+</tr>
+</thead>
+<tbody class="divide-y-0 text-on-surface">
+<!-- Row 1: Residential -->
+<tr class="hover:bg-surface-container transition-colors">
+<td class="py-4 px-5 font-semibold text-primary">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">home</span>
+<span>Residential Rooftop</span>
+</div>
+</td>
+<td class="py-4 px-5 font-medium">1 kWp - 15 kWp</td>
+<td class="py-4 px-5 text-on-surface-variant">80 - 100 Sq.Ft (Flat Concrete)</td>
+<td class="py-4 px-5 font-semibold text-eco-green">4.2 - 4.5 Units / kWp</td>
+<td class="py-4 px-5">Single/Three-Phase String or Microinverters</td>
+<td class="py-4 px-5">
+<span class="block font-semibold">25 Yrs Performance</span>
+<span class="text-on-surface-variant text-[12px]">10 Yrs Inverter Warranty</span>
+</td>
+</tr>
+<!-- Row 2: Housing Societies -->
+<tr class="bg-surface-container-lowest hover:bg-surface-container transition-colors">
+<td class="py-4 px-5 font-semibold text-primary">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-solar-cyan text-[20px]">apartment</span>
+<span>Housing Societies &amp; RWAs</span>
+</div>
+</td>
+<td class="py-4 px-5 font-medium">20 kWp - 250 kWp</td>
+<td class="py-4 px-5 text-on-surface-variant">75 - 90 Sq.Ft (Elevated Structures)</td>
+<td class="py-4 px-5 font-semibold text-eco-green">4.0 - 4.4 Units / kWp</td>
+<td class="py-4 px-5">Multi-MPPT High-Efficiency Commercial String</td>
+<td class="py-4 px-5">
+<span class="block font-semibold">25 Yrs Performance</span>
+<span class="text-on-surface-variant text-[12px]">5 Yrs Comprehensive O&amp;M</span>
+</td>
+</tr>
+<!-- Row 3: Commercial -->
+<tr class="hover:bg-surface-container transition-colors">
+<td class="py-4 px-5 font-semibold text-primary">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-warm-gold text-[20px]">domain</span>
+<span>Commercial &amp; Institutional</span>
+</div>
+</td>
+<td class="py-4 px-5 font-medium">25 kWp - 500 kWp</td>
+<td class="py-4 px-5 text-on-surface-variant">70 - 85 Sq.Ft (Flat / Tiled)</td>
+<td class="py-4 px-5 font-semibold text-eco-green">4.3 - 4.6 Units / kWp</td>
+<td class="py-4 px-5">Centralized String with Smart DG-PV Synchronizer</td>
+<td class="py-4 px-5">
+<span class="block font-semibold">25 Yrs Module Linearity</span>
+<span class="text-on-surface-variant text-[12px]">10 Yrs Inverter Warranty</span>
+</td>
+</tr>
+<!-- Row 4: Industrial Shed Mount -->
+<tr class="bg-surface-container-lowest hover:bg-surface-container transition-colors">
+<td class="py-4 px-5 font-semibold text-primary">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-navy-secondary text-[20px]">factory</span>
+<span>Industrial Heavy Sheds</span>
+</div>
+</td>
+<td class="py-4 px-5 font-medium">100 kWp - 5,000 kWp+</td>
+<td class="py-4 px-5 text-on-surface-variant">65 - 75 Sq.Ft (Trapezoidal Metal)</td>
+<td class="py-4 px-5 font-semibold text-eco-green">4.4 - 4.8 Units / kWp</td>
+<td class="py-4 px-5">Utility Grade 100kW+ String or Central Inverters</td>
+<td class="py-4 px-5">
+<span class="block font-semibold">25 Yrs Performance</span>
+<span class="text-on-surface-variant text-[12px]">10 Yrs Structure Mechanical</span>
+</td>
+</tr>
+<!-- Row 5: Solar O&M -->
+<tr class="hover:bg-surface-container transition-colors">
+<td class="py-4 px-5 font-semibold text-primary">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-eco-green text-[20px]">shield</span>
+<span>Solar O&amp;M Service Packs</span>
+</div>
+</td>
+<td class="py-4 px-5 font-medium">All Plant Sizes</td>
+<td class="py-4 px-5 text-on-surface-variant">N/A (Comprehensive Service)</td>
+<td class="py-4 px-5 font-semibold text-secondary">Target &gt;99% Uptime</td>
+<td class="py-4 px-5">Multi-Vendor Inverter Repair &amp; Firmware Reflash</td>
+<td class="py-4 px-5"><span class="block font-semibold">Annual SLA Coverage</span><span class="text-on-surface-variant text-[12px]">Rapid Emergency Dispatch</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Regulatory Compliance & Roof Audit Verification Note (Requirement #4) -->
+<div class="bg-surface-container-high/80 rounded-xl p-space-md shadow-sm flex items-start gap-space-md">
+<span class="material-symbols-outlined text-solar-cyan text-[28px] flex-shrink-0 mt-0.5">policy</span>
+<div class="flex flex-col gap-1">
+<span class="font-title-md text-title-md font-bold text-on-surface">Structural &amp; Regulatory Mandatory Notice</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+<strong class="text-on-surface font-semibold">[Service scope and equipment configuration subject to structural roof audit and DISCOM approval]</strong>. Generation estimates are calculated based on typical Indian weather models (Global Horizontal Irradiance GHI ~5.2 kWh/m²/day). Actual energy yield may fluctuate depending on roof azimuth, seasonal shadow obstruction, tilt angle, and local utility grid availability. All civil drawings must receive engineering endorsement before module mounting.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Technical Engineering Highlights: The MB Advantage Bento Mosaic -->
+<section class="w-full py-space-2xl">
+<div class="max-w-7xl mx-auto px-margin flex flex-col gap-space-xl">
+<div class="flex flex-col gap-space-xs text-center max-w-2xl mx-auto">
+<span class="font-label-md text-label-md text-secondary uppercase font-bold tracking-wider">Quality Benchmark</span>
+<h3 class="font-headline-xl text-headline-xl text-primary font-bold">Why MB Associates Engineering Outperforms</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          We do not use standard white-label kits. Every fastener, strut, inverter, and grounding pit is selected to outlast standard warranties.
+        </p>
+</div>
+<!-- Bento Grid Mosaic (No borders, shadow & background shifts) -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Bento 1 -->
+<div class="bg-surface-card rounded-xl p-space-lg shadow-md flex flex-col justify-between">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-secondary/10 text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[26px]">grid_view</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary font-bold">ALMM Approved Bifacial Glass-Glass</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              We exclusively deploy Ministry of New and Renewable Energy (ALMM List-I) compliant TOPCon and Mono-PERC bifacial panels that harvest up to 25% additional power from rear ground albedo reflection.
+            </p>
+</div>
+<div class="pt-space-md flex items-center gap-2 font-label-sm text-label-sm text-eco-green">
+<span class="material-symbols-outlined text-[16px]">check</span>
+<span>22.4% Average Cell Efficiency</span>
+</div>
+</div>
+<!-- Bento 2 -->
+<div class="bg-surface-card rounded-xl p-space-lg shadow-md flex flex-col justify-between">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-warm-gold/15 text-warm-gold flex-center flex items-center justify-center">
+<span class="material-symbols-outlined text-[26px]">hardware</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary font-bold">Galvanized Heavy Structures (80+ Microns)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Hot-dip galvanized (HDG) steel mounting superstructures with minimum 80-micron coating withstand corrosive coastal humidity and monsoon rainstorms without rusting.
+            </p>
+</div>
+<div class="pt-space-md flex items-center gap-2 font-label-sm text-label-sm text-primary">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span>Rated for 170 km/h Cyclonic Winds</span>
+</div>
+</div>
+<!-- Bento 3 -->
+<div class="bg-surface-card rounded-xl p-space-lg shadow-md flex flex-col justify-between">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-solar-cyan/15 text-solar-cyan flex items-center justify-center">
+<span class="material-symbols-outlined text-[26px]">bolt</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary font-bold">Class-I Lightning &amp; Pure Copper Earthing</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Independent low-resistance chemical earthing pits for DC, AC, and Lightning Arrestor circuits with continuous copper-bonded grounding rods conforming to IS 3043.
+            </p>
+</div>
+<div class="pt-space-md flex items-center gap-2 font-label-sm text-label-sm text-eco-green"><span class="material-symbols-outlined text-[16px]">check</span><span>Low Resistance Grounding Design</span></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Comprehensive CTA Banner & Lead Intake Module (Requirement #5) -->
+<section class="w-full py-space-3xl bg-primary-container text-on-primary" id="enquiry-form">
+<div class="max-w-7xl mx-auto px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Left: Pitch & Value Prop -->
+<div class="lg:col-span-6 flex flex-col gap-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="px-3 py-1 rounded-full bg-solar-cyan/20 text-solar-cyan font-label-sm text-label-sm uppercase tracking-wider font-semibold">
+              Turnkey Consultation
+            </span>
+<span class="text-on-primary-container font-label-sm text-label-sm">Free Initial Feasibility</span>
+</div>
+<h3 class="font-headline-xl text-headline-xl font-bold text-on-primary leading-tight">
+            Need a Custom Solar Engineering Blueprint?
+          </h3>
+<p class="font-body-lg text-body-lg text-on-primary-container leading-relaxed">
+            Whether you are assessing a multi-acre industrial shed, a 200-apartment cooperative housing society, or a private residence, our certified solar structural engineers will evaluate your rooftop irradiance, shadow contours, and DISCOM sanctioned load.
+          </p>
+<div class="flex flex-col gap-space-sm pt-space-xs font-body-sm text-body-sm">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-eco-green text-[20px]">check_circle</span>
+<span class="text-on-primary">Computerized 3D Shadow Simulation &amp; Plant Layout</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-eco-green text-[20px]">check_circle</span>
+<span class="text-on-primary">Complete DISCOM Net-Metering Feasibility Verification</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-eco-green text-[20px]">check_circle</span>
+<span class="text-on-primary">Transparent ROI, Payback Horizon &amp; Cash Flow Forecast</span>
+</div>
+</div>
+<div class="pt-space-md flex flex-wrap items-center gap-space-md">
+<a class="px-6 py-3 rounded-lg bg-surface-container-lowest hover:bg-surface-container text-on-surface font-label-lg text-label-lg flex items-center gap-2 transition-all shadow-md" href="/solar-calculator" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-warm-gold text-[20px]">calculate</span>
+<span>Calculate Savings Online</span>
+</a>
+<a class="flex items-center gap-2 font-label-lg text-label-lg text-solar-cyan hover:text-white transition-colors" href="#enquiry-form"><span class="material-symbols-outlined text-[20px]">support_agent</span><span>Connect with Solar Assistance Desk</span></a>
+</div>
+</div>
+<!-- Right: Interactive Lead Intake Card -->
+<div class="lg:col-span-6">
+<div class="bg-surface-card text-on-surface rounded-xl p-space-xl shadow-xl flex flex-col gap-space-md">
+<div class="flex flex-col">
+<h4 class="font-headline-sm text-headline-sm font-bold text-primary">Request Custom Assessment</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Fill in your basic roof parameters for assistance and coordination callback. Note: A site visit is a request subject to feasibility and vendor assignment.</p>
+</div>
+<form class="flex flex-col gap-space-md" onsubmit="handleAssessmentSubmit(event)">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="lead-name">Your Full Name *</label>
+<input class="h-12 px-4 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-surface-card transition-all outline-none" id="lead-name" placeholder="e.g. Rajesh Sharma" required="" type="text">
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="lead-phone">Phone Number *</label>
+<input class="h-12 px-4 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-surface-card transition-all outline-none" id="lead-phone" placeholder="+91 98000 00000" required="" type="tel">
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="lead-type">Solution Required *</label>
+<select class="h-12 px-4 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-surface-card transition-all outline-none" id="lead-type">
+<option value="residential">Residential Villa / Bungalow</option>
+<option value="rwa">Housing Society / RWA</option>
+<option value="commercial">Commercial / Institutional Hub</option>
+<option value="industrial">Industrial Shed / Factory Mount</option>
+<option value="om">Solar O&amp;M Annual Contract</option>
+</select>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="lead-bill">Monthly Electric Bill (₹)</label>
+<input class="h-12 px-4 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-surface-card transition-all outline-none" id="lead-bill" placeholder="e.g. 15000" type="number">
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="lead-city">City &amp; State *</label>
+<input class="h-12 px-4 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-surface-card transition-all outline-none" id="lead-city" placeholder="e.g. Pune, Maharashtra" required="" type="text">
+</div>
+<div class="flex items-start gap-2 pt-1">
+<input checked="" class="mt-1 accent-secondary" id="lead-consent" required="" type="checkbox">
+<label class="font-body-sm text-body-sm text-on-surface-variant leading-snug" for="lead-consent">
+                  I agree to receive a technical feasibility call and quotation from MB Associates engineers.
+                </label>
+</div>
+<button class="w-full py-3.5 px-6 rounded-lg bg-brand-accent-red hover:bg-red-700 text-on-error font-label-lg text-label-lg flex items-center justify-center gap-2 transition-all shadow-md" type="submit">
+<span class="material-symbols-outlined text-[20px]">electric_bolt</span>
+<span>Request Custom Assessment</span>
+</button>
+<div class="hidden p-3 rounded-lg bg-eco-green/10 text-eco-green font-label-sm text-label-sm text-center" id="form-feedback">
+                Thank you! Your assessment inquiry has been received. Our chief EPC designer will contact you within 24 hours.
+              </div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Logic for Tab Switching & Form Submission -->
+<script>
+    function switchTab(tabKey) {
+      // Hide all panels
+      const panels = document.querySelectorAll('.solution-tab-panel');
+      panels.forEach(panel => {
+        panel.classList.add('hidden');
+        panel.classList.remove('flex');
+      });
+
+      // Reset all buttons
+      const buttons = document.querySelectorAll('.solution-tab-btn');
+      buttons.forEach(btn => {
+        btn.classList.remove('bg-surface-card', 'text-secondary', 'shadow-sm', 'font-bold');
+        btn.classList.add('text-on-surface-variant');
+      });
+
+      // Show selected panel
+      const targetPanel = document.getElementById('tab-panel-' + tabKey);
+      if (targetPanel) {
+        targetPanel.classList.remove('hidden');
+        targetPanel.classList.add('flex');
+      }
+
+      // Highlight selected button
+      const targetBtn = document.getElementById('tab-btn-' + tabKey);
+      if (targetBtn) {
+        targetBtn.classList.remove('text-on-surface-variant');
+        targetBtn.classList.add('bg-surface-card', 'text-secondary', 'shadow-sm', 'font-bold');
+      }
+    }
+
+    function handleAssessmentSubmit(event) {
+      event.preventDefault();
+      const feedback = document.getElementById('form-feedback');
+      if (feedback) {
+        feedback.classList.remove('hidden');
+        feedback.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+    }
+  </script>
+</div></main><footer class="w-full bg-primary-container text-on-primary border-t border-navy-secondary/40 pt-space-3xl pb-space-xl"><div class="max-w-7xl mx-auto px-margin"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-gutter pb-space-2xl border-b border-navy-secondary/50"><div class="lg:col-span-2 flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><img alt="MB Associates" class="h-12 w-auto brightness-0 invert object-contain" src="/mb-associates-logo.png"><div class="flex flex-col"><span class="font-headline-sm text-headline-sm font-bold text-on-primary tracking-tight">MB ASSOCIATES</span><span class="font-label-sm text-label-sm text-solar-cyan font-semibold tracking-wider uppercase">Rooftop Solar Solutions</span></div></div><p class="font-body-md text-body-md text-on-primary-container leading-relaxed max-w-md">MB Associates is an end-to-end solar project assistance and coordination partner delivering high-efficiency on-grid, off-grid, and hybrid solar installations for industrial, commercial, and residential clients across India. Empowering carbon reduction and financial freedom through sustainable engineering.</p><div class="flex flex-wrap items-center gap-space-xs pt-space-xs"><span class="px-3 py-1 rounded-full bg-navy-secondary text-on-primary font-label-sm text-label-sm flex items-center gap-1.5 border border-white/10"><span class="material-symbols-outlined text-[15px] text-eco-green">verified</span>Solar project assistance</span><span class="px-3 py-1 rounded-full bg-navy-secondary text-on-primary font-label-sm text-label-sm flex items-center gap-1.5 border border-white/10"><span class="material-symbols-outlined text-[15px] text-warm-gold">workspace_premium</span>Tier-1 Modules</span></div></div><div class="flex flex-col gap-space-md"><h4 class="font-title-md text-title-md font-semibold text-on-primary border-b border-white/10 pb-2">Solar Solutions</h4><ul class="flex flex-col gap-space-sm font-body-sm text-body-sm text-on-primary-container"><li class="hover:text-on-primary transition-colors"><a class="hover:text-solar-cyan" data-path="residential-solar" href="#">Residential Rooftops</a></li><li class="hover:text-on-primary transition-colors"><a class="hover:text-solar-cyan" data-path="commercial-solar" href="#">Commercial Complexes</a></li><li class="hover:text-on-primary transition-colors"><a class="hover:text-solar-cyan" data-path="industrial-solar" href="#">Industrial High-Tension Solar</a></li><li class="hover:text-on-primary transition-colors"><a class="hover:text-solar-cyan" data-path="off-grid-solar" href="#">Off-Grid Battery Storage</a></li><li class="hover:text-on-primary transition-colors"><a class="hover:text-solar-cyan" data-path="solar-operations-and-maintenance" href="#">Solar O&amp;M Services</a></li></ul></div><div class="flex flex-col gap-space-md"><h4 class="font-title-md text-title-md font-semibold text-on-primary border-b border-white/10 pb-2">Subsidies &amp; Tools</h4><ul class="flex flex-col gap-space-sm font-body-sm text-body-sm text-on-primary-container"><li class="hover:text-on-primary transition-colors"><a class="hover:text-solar-cyan" data-path="subsidy-and-finance" href="/subsidy-finance">PM Surya Ghar Yojana</a></li><li class="hover:text-on-primary transition-colors"><a class="hover:text-solar-cyan" data-path="subsidy-and-finance" href="/subsidy-finance">State Net Metering Policy</a></li><li class="hover:text-on-primary transition-colors"><a class="hover:text-warm-gold flex items-center gap-1.5" href="/solar-calculator" rel="noopener noreferrer" target="_blank"><span>Solar ROI Calculator</span><span class="material-symbols-outlined text-[14px]">open_in_new</span></a></li><li class="hover:text-on-primary transition-colors"><a class="hover:text-solar-cyan" data-path="subsidy-and-finance" href="/subsidy-finance">Zero-Investment RESCO Model</a></li><li class="hover:text-on-primary transition-colors"><a class="hover:text-solar-cyan" data-path="subsidy-and-finance" href="/subsidy-finance">Green Energy Loan Assistance</a></li></ul></div><div class="flex flex-col gap-space-md"><h4 class="font-title-md text-title-md font-semibold text-on-primary border-b border-white/10 pb-2">Company &amp; Legal</h4><ul class="flex flex-col gap-space-sm font-body-sm text-body-sm text-on-primary-container"><li class="hover:text-on-primary transition-colors"><a class="hover:text-solar-cyan" data-path="about-us" href="/about">About MB Associates</a></li><li class="hover:text-on-primary transition-colors"><a class="hover:text-solar-cyan" data-path="projects" href="#">System Specifications &amp; Solutions</a></li><li class="hover:text-on-primary transition-colors"><a class="hover:text-solar-cyan" data-path="contact-us" href="/contact">Contact &amp; Offices</a></li><li class="hover:text-on-primary transition-colors"><a class="hover:text-solar-cyan" data-path="privacy-policy" href="#">Privacy Policy</a></li><li class="hover:text-on-primary transition-colors"><a class="hover:text-solar-cyan" data-path="terms-of-service" href="#">Terms &amp; Disclaimers</a></li></ul></div></div><div class="py-space-lg border-b border-navy-secondary/40 text-on-primary-container font-body-sm text-body-sm leading-relaxed"><div class="flex items-start gap-space-sm bg-navy-secondary/30 p-space-md rounded-xl border border-white/5"><span class="material-symbols-outlined text-warm-gold text-[22px] flex-shrink-0 mt-0.5">shield_with_heart</span><div><strong class="text-on-primary block mb-0.5 font-title-md text-body-sm">Government Compliance &amp; Subsidy Guidelines Disclaimer:</strong><p class="text-on-primary-container text-body-sm font-body-sm">Solar rooftop subsidies are governed by the Ministry of New and Renewable Energy (MNRE), National Portal for Rooftop Solar, and respective state electricity distribution companies (DISCOMs) under the PM Surya Ghar: Muft Bijli Yojana. Actual subsidy sanction and disbursement depend on applicant eligibility, roof stability approval, sanctioned load permissions, and DISCOM feeder availability. MB Associates adheres strictly to ALMM (Approved List of Models and Manufacturers) approved solar PV modules and BIS-certified inverters.</p></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-sm font-body-sm text-body-sm text-on-primary-container"><p>© 2025 MB Associates Energy EPC Pvt. Ltd. All rights reserved.</p><p class="text-label-sm font-label-sm text-on-primary-container/80">Engineered for Maximum Generation • End-to-End Coordination &amp; Support</p></div></div></footer>
+
+
+
+</body></html>

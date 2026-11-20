@@ -1,0 +1,16 @@
+# Git ignore for MB Associates Solar Backend & Frontend
+.env
+backend/.env
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+.DS_Store
+Thumbs.db
